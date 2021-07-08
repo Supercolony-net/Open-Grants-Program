@@ -65,14 +65,20 @@ It aims:
 
 ### Team members
 
-* Name of team leader
-* Names of team members 
+Markian (Founder)
+Dmitry Kryshtal (Marketing and BD)
+Green Baneling (Blockchain Core Developer)
+Sven Seven (Fullstack Developer)
+Varg Vikernes (Junior Blockchain Engineer)
+Lera Laricheva (Intern Creative Designer)
+
+
 
 ### Contact
 
-* **Contact Name:** Full name of the contact person in your team
-* **Contact Email:** Contact email (e.g. john@duo.com)
-* **Website:**
+* **Contact Name: Dmitry Kryshtal
+* **Contact Email:** dmitry.kryshtal@supercolony.net
+* **Website:** supercolony.net
 
 ### Legal Structure
 
@@ -87,19 +93,21 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-* https://github.com/<your_organisation>
-* https://github.com/<your_organisation>/<project_1>
-* https://github.com/<your_organisation>/<project_2>
+* https://github.com/Supercolony-net
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-* https://github.com/<team_member_1>
-* https://github.com/<team_member_2>
+* https://github.com/VargSupercolony
+* https://github.com/sventime
+* https://github.com/xgreenx
+* https://github.com/PierreOssun
 
 ### Team LinkedIn Profiles (if available)
 
 * https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* https://www.linkedin.com/in/dmitry-kryshtal/
+* https://www.linkedin.com/in/valeria-laricheva/
 
 ## Development Status :open_book:
 
