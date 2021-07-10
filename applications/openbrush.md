@@ -2,7 +2,8 @@
 
 * **Project Name:** OpenBrush
 * **Team Name:** [SuperColony](https://github.com/Supercolony-net)
-* **Payment Address:** TODO
+* **Payment Address:** ERC 20 ADDRESS:
+0x112C9eDB60D16f9Cf501721b03B9D0F275682213
 
 ## Project Overview :page_facing_up:
 
@@ -65,29 +66,74 @@ It aims:
 
 ### Team members
 
-Markian (Founder)
-Dmitry Kryshtal (Marketing and BD)
-Green Baneling (Blockchain Core Developer)
-Sven Seven (Fullstack Developer)
-Varg Vikernes (Junior Blockchain Engineer)
-Lera Laricheva (Intern Creative Designer)
-
+**Markian Ivanichok** (Founder)  
+**Dmitry Kryshtal** (Marketing and BD)  
+**Green Baneling** (Blockchain Core Developer)  
+**Sven Seven** (Fullstack Developer)  
+**Varg Vikernes** (Junior Blockchain Engineer)  
+**Lera Laricheva** (Intern Creative Designer)  
+**Ian Arden** (Advisor)  
+**Hartej Sawney** (Advisor)  
 
 
 ### Contact
 
-* **Contact Name: Dmitry Kryshtal
+* **Contact Name:** Dmitry Kryshtal
 * **Contact Email:** dmitry.kryshtal@supercolony.net
-* **Website:** supercolony.net
+* **Website:** [supercolony.net](supercolony.net)
 
 ### Legal Structure
 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+* **Registered Address:** Dubai Silicon Oasis, DDP, Building A2, Dubai, UAE. 
+* **Registered Legal Entity:** Mempool Ventures FZCO, operating unde Supercolony brand
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+
+**Markian Ivanichok**
+CEO of Supercolony
+Blockchain enterpreneur, Lead Software Engineer
+Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups in soft. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that help enterpreneers to move faster. 
+Since the beginning of this year co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
+
+
+**Dmitry Kryshtal**  
+8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on biggest crypto-related YouTube channel in CIS – S3XYBTC.
+
+
+
+
+**Green Baneling**  
+Blockchain Core Developer  
+Primary programming languages are: C++, Go, Rust  
+
+Finished the faculty of applied mathematic(Master of degree). Participated in programming competitions during education. Working as a programmer for around 6 years.  
+
+First-year was a freelancer, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that 2 years in the company which creating software for TV devices(C++/ Haxe). After that 3 years on different blockchain projects(C++/Go/Rust/Solidity/Js).
+
+
+
+
+Varg Vikernes
+Junior Blockchain Engineer
+Was working in Big Data prior to blockchain, now switched to developing on Polkadot and have zero regrets
+
+
+
+
+**Sven Seven**  
+Fullstack Developer  
+Software engineer with prod experience since 2015. Master degree Information Security. Was working in finance, e-commerce, networking domains as full-stack dev. Programming languages are JS, Java, Python, Rust, C++ . Blockchain dev since 2021.
+
+
+
+
+**Lera Laricheva**  
+Creative Designer  
+"In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that to design. At first I tried myself in design, then when I saw the result and understood that I liked it, I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the work in the company is much better, and that is where a person can get a tremendous experience, always evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time I’m studying the third year in Karazin, specialty marketing."
+
+
 
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
 
@@ -105,8 +151,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-* https://www.linkedin.com/<person_1>
+* https://www.linkedin.com/in/mivanichok/
+* https://www.linkedin.com/in/ian-arden/
+* https://www.linkedin.com/in/hartej/
 * https://www.linkedin.com/in/dmitry-kryshtal/
+* https://www.linkedin.com/in/valeria-laricheva/
 * https://www.linkedin.com/in/valeria-laricheva/
 
 ## Development Status :open_book:
@@ -177,7 +226,7 @@ To assist you in defining it, we have created a document with examples for some 
 
 ## Future Plans
 
-Please include here
+We're going to make strong impact on community, making ink! simple and convenient for developers.
 
 * how you intend to use, enhance, promote and support your project in the short term, and
 * the team's long-term plans and intentions in relation to it.
