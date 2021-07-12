@@ -6,20 +6,22 @@
 0x112C9eDB60D16f9Cf501721b03B9D0F275682213
 
 ## Project Overview :page_facing_up:
+https://github.com/w3f/PSPs/pull/22
 
 ### Overview
+Our mission with this project is to make ink! usable and achieve its wide adoption.
 
-OpenBrush is open source library for secure smart-contract development on ink! as
+In order to be successful with this mission several steps need to be taken. 
+1. OpenBrush is open source library for secure smart-contract development on ink! as
 [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
-But in addition to implementing standard contracts,
-it will also provide additional functionality to simplify
-the smart-contract development process and documentation with examples.
+2. Openbrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem. 
+3. In addition to having a standard implementation Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development,
+4. In order for Openbrush to work and fulfill it's purpose several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
 
-As the last stage of the library, the team will contribute to ink! and `contract-pallet`.
+This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! is a huge part of it. 
 
 ### Project Details
-
 The open brush should be the starting point for smart contract developers from Ethereum. 
 It will contain the same folder structure as openzeppelin and documentation that describes the differences 
 between ink! and Solidity, how developers should change their mindset, how to design their project, 
@@ -36,16 +38,16 @@ and wants to improve ink!, make it more user-friendly and to popularize it.
 ### Ecosystem Fit
 
 * Where and how does your project fit into the ecosystem?
+
+A necessity of a solution like this seemed rather urgent to us when we started to work with ink!. We quikcly realized that we strategically would like to become the company that builds in the ecosystem. Decided that we want to take commitment and help ink! became widespread and used. Right now usability of ink! is very low. Openbrush is deicated towards changing that. 
   
-The project fits in any substrate-based blockchain because 
-  it can have `contract-pallet` which provides ink! support.
 * Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-Our target audience is smart contract developers.
+Our target audience are smart contract developers on ink!.
 
 * What need(s) does your project meet?
 
-Our project is starting point for smart contract developers from Ethereum and it aims to improve smart contract development on ink!.
+Our project is starting point for smart contract developers coming from other ecosystems like Ethereum and it aims to improve smart contract development on ink!.
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
@@ -53,28 +55,25 @@ We know only about one project [metis](https://github.com/patractlabs/metis).
 
 * If so, how is your project different?
 
-Our project wants not only to provide the default implementation of contracts.
-It aims:
-- Provide the default implementation of popular contracts.
-- Simplify reuse/customization of implementations from the library.
-- Defines standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/22) for fungible tokens and we plan to create more)
-- Be an entry point for smart-contract developers from Ethereum(provide accord documentation).
-- Contribute to ink! to improve the smart-contract development experience(add new features, fix bugs, etc).
-- Contribute to `contract-pallet` to add support of upgradable contracts.
+Our project isn't restricted to only providing the base implementation of contracts.
+Objectively speaking based on what we know, what we currently see and what was listed in their proposal here are key differences:
+- At the moment Developer Experience of our library is significantly higher
+- Openbrush aims to propose and take care of standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/22) for fungible tokens and we plan to cotinue doing so)
+- Openbrush aims to be an starting point for a smart contract developer, provide documentation.
+- Contribute to ink! and substrate `contract-pallet` to improve the smart-contract development experience(add new features, fix bugs, etc).
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-**Markian Ivanichok** (Founder)  
-**Dmitry Kryshtal** (Marketing and BD)  
-**Green Baneling** (Blockchain Core Developer)  
-**Sven Seven** (Fullstack Developer)  
-**Varg Vikernes** (Junior Blockchain Engineer)  
-**Lera Laricheva** (Intern Creative Designer)  
+**Markian Ivanichok** (Founder & Blockchain Engineer)  
 **Ian Arden** (Advisor)  
 **Hartej Sawhney** (Advisor)  
-
+**Dmitry Kryshtal** (Marketing and BD)  
+**Green Baneling** (Blockchain Core Rust Engineer)  
+**Sven Seven** (Fullstack Rust Engineer)  
+**Varg Vikernes** (Blockchain Rust Engineer)  
+**Lera Laricheva** (Designer)  
 
 ### Contact
 
@@ -89,20 +88,14 @@ It aims:
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
 **Markian Ivanichok**  
 CEO of Supercolony
-Blockchain enterpreneur, Lead Software Engineer
-Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups in soft. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that help enterpreneers to move faster. 
+Blockchain enterpreneur, Software Engineer
+Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that helps enterpreneers to move faster. 
 Since the beginning of this year co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
-
 
 **Dmitry Kryshtal**  
 8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on biggest crypto-related YouTube channel in CIS – S3XYBTC.
-
-
-
 
 **Green Baneling**  
 Blockchain Core Developer  
@@ -112,35 +105,20 @@ Finished the faculty of applied mathematic(Master of degree). Participated in pr
 
 First-year was a freelancer, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that 2 years in the company which creating software for TV devices(C++/ Haxe). After that 3 years on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
-
-
-
 **Varg Vikernes**
 Junior Blockchain Engineer
 Was working in Big Data prior to blockchain, now switched to developing on Polkadot and have zero regrets
-
-
-
 
 **Sven Seven**  
 Fullstack Developer  
 Software engineer with prod experience since 2015. Master degree Information Security. Was working in finance, e-commerce, networking domains as full-stack dev. Programming languages are JS, Java, Python, Rust, C++ . Blockchain dev since 2021.
 
-
-
-
 **Lera Laricheva**  
 Creative Designer  
 "In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that to design. At first I tried myself in design, then when I saw the result and understood that I liked it, I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the work in the company is much better, and that is where a person can get a tremendous experience, always evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time I’m studying the third year in Karazin, specialty marketing."
 
-
-
-
 **Hartej Sawhney**  
 Hartej is the Co-Founder and President for Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund Pink Sky Capital, Krypto.io, and BlitzPredict.io.
-
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -165,16 +143,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-[The project](https://github.com/Supercolony-net/openbrush-contracts) already in progress.
-TODO
+[The project](https://github.com/Supercolony-net/openbrush-contracts) is already in progress.
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-* links to improvement proposals or [RFPs](https://github.com/w3f/General-Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-* academic publications relevant to the problem,
-* links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-* references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-* previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
