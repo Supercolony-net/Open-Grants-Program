@@ -21,7 +21,7 @@ As the last stage of the library, the team will contribute to ink! and `contract
 ### Project Details
 
 The open brush should be the starting point for smart contract developers from Ethereum. 
-It will contain the same folder structure and documentation that describes the differences 
+It will contain the same folder structure as openzeppelin and documentation that describes the differences 
 between ink! and Solidity, how developers should change their mindset, how to design their project, 
 how to deploy contract and test them, etc.
 
@@ -31,7 +31,7 @@ features which are not available in ink!(and our team will try to integrate them
 but which can be useful for development.
 
 Our team aims to improve the smart-contract development experience,
-and wants to improve ink! to popularize it.
+and wants to improve ink!, make it more user-friendly and to popularize it.
 
 ### Ecosystem Fit
 
@@ -73,7 +73,7 @@ It aims:
 **Varg Vikernes** (Junior Blockchain Engineer)  
 **Lera Laricheva** (Intern Creative Designer)  
 **Ian Arden** (Advisor)  
-**Hartej Sawney** (Advisor)  
+**Hartej Sawhney** (Advisor)  
 
 
 ### Contact
@@ -91,7 +91,7 @@ It aims:
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-**Markian Ivanichok**
+**Markian Ivanichok**  
 CEO of Supercolony
 Blockchain enterpreneur, Lead Software Engineer
 Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups in soft. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that help enterpreneers to move faster. 
@@ -115,7 +115,7 @@ First-year was a freelancer, creating an application for IOS(Swift), creating mo
 
 
 
-Varg Vikernes
+**Varg Vikernes**
 Junior Blockchain Engineer
 Was working in Big Data prior to blockchain, now switched to developing on Polkadot and have zero regrets
 
@@ -133,6 +133,11 @@ Software engineer with prod experience since 2015. Master degree Information Sec
 Creative Designer  
 "In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that to design. At first I tried myself in design, then when I saw the result and understood that I liked it, I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the work in the company is much better, and that is where a person can get a tremendous experience, always evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time I’m studying the third year in Karazin, specialty marketing."
 
+
+
+
+**Hartej Sawhney**  
+Hartej is the Co-Founder and President for Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund Pink Sky Capital, Krypto.io, and BlitzPredict.io.
 
 
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
