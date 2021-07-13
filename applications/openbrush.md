@@ -165,39 +165,93 @@ To assist you in defining it, we have created a document with examples for some 
 
 > :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
+## Development Roadmap :nut_and_bolt:
+
 ### Overview
 
-* **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-* **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-* **Total Costs:** Amount of payment in USD for the whole project. The total amount of funding _needs to be below $30k for initial grants_ and $100k for follow-up grants. (e.g. 12,000 USD). This and the costs for each milestone need to be in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+* **Total Estimated Duration:** 3 months
+* **Full-Time Equivalent (FTE):** 3
+* **Total Costs:** 
 
-### Milestone 1 Example — Implement Substrate Modules
+### Milestone 1 - Implement reusable basic contracts from OpenZeppelin with ink!
 
-* **Estimated duration:** 1 month
-* **FTE:**  2
-* **Costs:** 8,000 USD
+* **Estimated duration:** 2 weeks
+* **FTE:**  2.5
+* **Costs:** 10,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| Number | Deliverable                      | Specification                                                                                                                                                                                                    |
+| -----  | -----------                      | -------------                                                                                                                                                                                                    |
+| 0a.    | License                          | MIT                                                                                                                                                                                                              |
+| 0b.    | Documentation                    | We will enhance inline documentation, and write a tutorial on how to import/customize contracts.                                                                                                      |
+| 0c.    | Testing Guide                    | We will add unit tests to cover all basic logic and integration tests with Redspot to verify that all works via `contract-pallet`                                            |
+| 1a.    | Fungible token(Erc20)            | We will implement reusable [Erc20](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20) analog on ink! |
+| 1b.    | Non Fungible token(Erc721)       | We will implement reusable [Erc721](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) analog on ink!                                                                                                         |
+| 1b.    | Multi token(Erc1155)             | We will implement reusable [Erc1155](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC1155) analog on ink!                                                                                                         |
+| 2a.    | AccessControl                    | We will implement reusable [AccessControl](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol) analog on ink!                                                                                                         |
+| 2b.    | Ownable                          | We will implement reusable [Ownable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol) analog on ink!                                                                                     |
 
+### Milestone 2 - Simplify usage of library. Add a new features to extend ink!
 
-### Milestone 2 Example — Additional features
+* **Estimated duration:** 4 weeks
+* **FTE:**  2.5
+* **Costs:** 20,000 USD
 
-* **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 4,000 USD
+| Number | Deliverable                                         | Specification                                                                                                                                                                                    |
+| -----  | -----------                                         | -------------                                                                                                                                                                                    |
+| 0a.    | License                                             | MIT                                                                                                                                                                                              |
+| 0b.    | Documentation                                       | We will enhance inline documentation, update previous documentation based on simplifications, documentation for new features.                                                                                        |
+| 0c.    | Testing Guide                                       | We will test macros, update tests according new features, simplifications.                                                                                               |
+| 1.     | Remove boilerplate code                             | We will provide a macro which will allow to remove boilerplate during usage of library(Library provides implementation on rust level in internal trait. User must reuse internal implementation with ink! messages. Our macro will simplify it). It will simplify the code structure and usage. |
+| 2.     | Derive for storages                                 | We will provide a derive macro to generate implementation for storage's structs. It will simplify integration of fields inside of struct and implementation of storage's traits for that fields. |
+| 3.     | Support default implementation in external traits   | We will add mnemonic support of default implementations inside of trait definition(traits defined via `#[ink::trait_definition]`). It is mnemonic, because under the hood we will generate internal trait with default implementation that will be used in external trait.  |
 
-...
+### Milestone 3 - Standardization of tokens contracts. Modifiers. Providing macros to define own library. 
 
+* **Estimated Duration:** 4 weeks(+ time for PSP approving)
+* **FTE:**  2.5
+* **Costs:** 20,000 USD
+
+| Number | Deliverable                                              | Specification                                                                                                                             |
+| -----  | -----------                                              | -------------                                                                                                                             |
+| 0a.    | License                                                  | MIT                                                                                                                                       |
+| 0b.    | Documentation                                            | We will provide inline documentation for macros, write a tutorial on how to use macros in own project with detailed description how it works inside. |
+| 0c.    | Testing Guide                                            | We will add more tests to cover all macros, update tests according new changes.                                                           |
+| 1.     | Create Proposal for Fungible token                       | We will create a proposal for standardization of Erc20 token in case of ink! and `contract-pallet`. Based on final decision about proposal update the implementation in library.              |
+| 2.     | Support of modifiers                                     | We will add support of modifiers like in Solidity. User will be able to mark some function to use modifiers and it will simplify the code. |
+| 3.     | ReentrancyGuard                                          | We will add implementation of [ReentrancyGuard](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol) |
+| 4.     | Create Proposal for Non Fungible token and Multi token   | We will create proposals for NFT and multi token, when proposal for FT token will be approved. Based on decisions in these approves we will update implementation in library. |
+
+### Milestone 4 - Implement extensions for contracts. Contribution to ink!
+
+* **Estimated Duration:** 6 weeks(time depends on conversations in ink! repository)
+* **FTE:**  2.5
+* **Costs:** 20,000 USD
+
+| Number | Deliverable                                                              | Specification                                                                                                                             |
+| -----  | -----------                                                              | -------------                                                                                                                             |
+| 0a.    | License                                                                  | MIT                                                                                                                                       |
+| 0b.    | Documentation                                                            | We will provide inline documentation, example of usage of extensions. |
+| 0c.    | Testing Guide                                                            | We will add tests for extensions and for a new changes from ink! side.                                                           |
+| 1.     | Implement extensions for tokens                                          | We will implement extensions for Erc20, Erc721 and Erc1155 tokens.              |
+| 2.     | Implement additional useful contract                                     | We will implement [PaymentSplitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol), [TimelockController](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/TimelockController.sol) and etc. |
+| 3.     | Contribute to ink! with fixing of events                                 | We will help to fix the [issue](https://github.com/paritytech/ink/issues/809) with events. |
+| 4.     | Add support of default implementation in trait definition on ink! level  | We will help with supporting of default implementation inside of trait definition. It will require conversations with ink! team to define the best way how to implement that without conflicts with their future changes.  |
+
+### Milestone 5 - Support of upgradable contracts
+
+* **Estimated Duration:** 7 weeks(time depends on conversations in ink! and `contract-pallet` repositories)
+* **FTE:**  2.5
+* **Costs:** 35,000 USD
+
+| Number | Deliverable                      | Specification                                                                                                                             |
+| -----  | -----------                      | -------------                                                                                                                             |
+| 0a.    | License                          | MIT                                                                                                                                       |
+| 0b.    | Documentation                    | We will provide inline documentation, example of upgradable contracts. |
+| 0c.    | Testing Guide                    | We will add tests to cover upgradability of contracts.                                                           |
+| 1.     | Implement delegated call         | We will find and provide the idea how [delegeted call](https://docs.soliditylang.org/en/v0.4.21/introduction-to-smart-contracts.html#delegatecall-callcode-and-libraries) can be implemented in `contract-pallet`. Help with implementation of it.            |
+| 2.     | Help with fallback function      | We will help with implementation of [fallback function](https://github.com/paritytech/ink/issues/739) if it is not ready. |
+| 3.     | Creation of Proxy contracts      | We will an analog of [Proxy](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/proxy) contracts. |
+| 4.     | Documentation and examples       | We will add examples and documentation how must be implemented upgradable contract.  |
 
 ## Future Plans
 
