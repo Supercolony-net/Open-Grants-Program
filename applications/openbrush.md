@@ -239,8 +239,10 @@ PSP - https://github.com/w3f/PSPs/pull/22
 
 We're going to make strong impact on community, making ink! simple and convenient for developers.
 
-* how you intend to use, enhance, promote and support your project in the short term, and
-* the team's long-term plans and intentions in relation to it.
+- Sharing our experience in text and video format on different crypto or tech resources  
+- Creating a knowledge base regarding ink!  
+- Delevoping marketing and PR strategy  
+- Involving new developers
 
 
 ## Additional Information :heavy_plus_sign:
