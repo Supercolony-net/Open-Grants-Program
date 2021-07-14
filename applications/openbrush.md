@@ -1,12 +1,12 @@
 # W3F Open Grant Proposal
 
-* **Project Name:** OpenBrush
+* **Project Name:** [OpenBrush](https://github.com/Supercolony-net/openbrush-contracts)
 * **Team Name:** [SuperColony](https://github.com/Supercolony-net)
 * **Payment Address:** ERC 20 ADDRESS:
 0x112C9eDB60D16f9Cf501721b03B9D0F275682213
 
 ## Project Overview :page_facing_up:
-https://github.com/w3f/PSPs/pull/22
+Standard proposal - https://github.com/w3f/PSPs/pull/22
 
 ### Overview
 Our mission with this project is to make ink! usable and achieve its wide adoption.
@@ -73,7 +73,6 @@ Objectively speaking based on what we know, what we currently see and what was l
 **Green Baneling** (Blockchain Core Rust Engineer)  
 **Sven Seven** (Fullstack Rust Engineer)  
 **Varg Vikernes** (Blockchain Rust Engineer)  
-**Vasyl Novak (Tokenomist)  
 **Lera Laricheva** (Designer)  
 
 ### Contact
@@ -144,8 +143,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-[The project](https://github.com/Supercolony-net/openbrush-contracts) is already in progress.
+[The project](https://github.com/Supercolony-net/openbrush-contracts) is already in a solid pre-release state.
 
+PSP - https://github.com/w3f/PSPs/pull/22
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -155,7 +155,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 * **Full-Time Equivalent (FTE):** 3
 * **Total Costs:** 
 
-### Milestone 1 - Implement reusable basic contracts from OpenZeppelin with ink!
+### Milestone 1 - Implement reusable basic contracts in ink!, similar to Openzeppelin
 
 * **Estimated duration:** 2 weeks
 * **FTE:**  2.5
@@ -239,10 +239,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 We're going to make strong impact on community, making ink! simple and convenient for developers.
 
-* Sharing our experience in text and video format on different crypto or tech resources  
-* Creating a knowledge base regarding ink!  
-* Delevoping marketing and PR strategy  
-* Involving new developers
+* how you intend to use, enhance, promote and support your project in the short term, and
+* the team's long-term plans and intentions in relation to it.
 
 
 ## Additional Information :heavy_plus_sign:
