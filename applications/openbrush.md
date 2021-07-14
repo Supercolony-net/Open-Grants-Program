@@ -151,9 +151,12 @@ PSP - https://github.com/w3f/PSPs/pull/22
 
 ### Overview
 
-* **Total Estimated Duration:** 3 months
-* **Full-Time Equivalent (FTE):** 3
-* **Total Costs:** 
+**We have decided to describe a full roadmap of an Openbrush here, with estimates. However the funding we request at this stage is a maximum amount of 30k USD. **
+At this point of time Milestone 1 and 2 are finished and 3rd is in progress. 
+
+* **Total Estimated Duration:** 6 months
+* **Full-Time Equivalent (FTE):** 2.5
+* **Total Costs:** 105,000 USD
 
 ### Milestone 1 - Implement reusable basic contracts in ink!, similar to Openzeppelin
 
@@ -187,7 +190,8 @@ PSP - https://github.com/w3f/PSPs/pull/22
 | 2.     | Derive for storages                                 | We will provide a derive macro to generate implementation for storage's structs. It will simplify integration of fields inside of struct and implementation of storage's traits for that fields. |
 | 3.     | Support default implementation in external traits   | We will add mnemonic support of default implementations inside of trait definition(traits defined via `#[ink::trait_definition]`). It is mnemonic, because under the hood we will generate internal trait with default implementation that will be used in external trait.  |
 
-### Milestone 3 - Standardization of tokens contracts. Modifiers. Providing macros to define own library. 
+👇 We are currently here
+### Milestone 3 - Pre-release. Standardization of tokens contracts. Modifiers. Providing macros to define own library. 
 
 * **Estimated Duration:** 4 weeks(+ time for PSP approving)
 * **FTE:**  2.5
@@ -203,7 +207,7 @@ PSP - https://github.com/w3f/PSPs/pull/22
 | 3.     | ReentrancyGuard                                          | We will add implementation of [ReentrancyGuard](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol) |
 | 4.     | Create Proposal for Non Fungible token and Multi token   | We will create proposals for NFT and multi token, when proposal for FT token will be approved. Based on decisions in these approves we will update implementation in library. |
 
-### Milestone 4 - Implement extensions for contracts. Contribution to ink!
+### Milestone 4 - Release. Implement extensions for contracts. Contribution to ink!
 
 * **Estimated Duration:** 6 weeks(time depends on conversations in ink! repository)
 * **FTE:**  2.5
