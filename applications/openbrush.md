@@ -9,17 +9,17 @@
 Standard proposal - https://github.com/w3f/PSPs/pull/22
 
 ### Overview
-Our mission with this project is to make ink! usable and achieve its wide adoption.
+Our mission within this project is to make ink! usable, and achieve its wide adoption.
 
-In order to be successful with this mission several steps need to be taken. 
-1. OpenBrush is open source library for secure smart-contract development on ink! as
+In order to be successful with this mission, several steps need to be taken. 
+1. OpenBrush is an open source library for secure smart-contract development on ink! as
 [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
 2. Openbrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem. 
-3. In addition to having a standard implementation Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development,
-4. In order for Openbrush to work and fulfill it's purpose several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
+3. In addition to having a standard implementation, Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development,
+4. In order for Openbrush to work and fulfill it's purpose, several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
 
-This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! is a huge part of it. 
+This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a huge part of it. 
 
 ### Project Details
 The open brush should be the starting point for smart contract developers from Ethereum. 
@@ -27,9 +27,9 @@ It will contain the same folder structure as openzeppelin and documentation that
 between ink! and Solidity, how developers should change their mindset, how to design their project, 
 how to deploy contract and test them, etc.
 
-The library will provide the default implementation of standard contracts which 
+The library will provide the default implementation of standard contracts, which 
 can be customized by developers. Also, the library will provide additional 
-features which are not available in ink!(and our team will try to integrate them into ink! later) 
+features which are not available in ink!(and our team will try to integrate them into ink! later), 
 but which can be useful for development.
 
 Our team aims to improve the smart-contract development experience,
@@ -39,7 +39,7 @@ and wants to improve ink!, make it more user-friendly and to popularize it.
 
 * Where and how does your project fit into the ecosystem?
 
-A necessity of a solution like this seemed rather urgent to us when we started to work with ink!. We quikcly realized that we strategically would like to become the company that builds in the ecosystem. Decided that we want to take commitment and help ink! became widespread and used. Right now usability of ink! is very low. Openbrush is deicated towards changing that. 
+The necessity of a solution like this seemed rather urgent to us when we started to work with ink!. We quikcly realized that we strategically would like to become the company that builds in the ecosystem. We decided that we want to commit and help ink! become widespread and used. Right now usability of ink! is very low. Openbrush is dedicated to change that. 
   
 * Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
@@ -47,19 +47,19 @@ Our target audience are smart contract developers on ink!.
 
 * What need(s) does your project meet?
 
-Our project is starting point for smart contract developers coming from other ecosystems like Ethereum and it aims to improve smart contract development on ink!.
+Our project is the starting point for smart contract developers, coming from other ecosystems like Ethereum, and it aims to improve smart contract development on ink!.
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
-We know only about one project [metis](https://github.com/patractlabs/metis).
+We are only aware about one project [metis](https://github.com/patractlabs/metis).
 
 * If so, how is your project different?
 
 Our project isn't restricted to only providing the base implementation of contracts.
-Objectively speaking based on what we know, what we currently see and what was listed in their proposal here are key differences:
-- At the moment Developer Experience of our library is significantly higher
+Objectively speaking based on what we know, what we currently see, and what was listed in their proposal here are key differences:
+- At the moment, Developer Experience of our library is significantly higher
 - Openbrush aims to propose and take care of standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/22) for fungible tokens and we plan to cotinue doing so)
-- Openbrush aims to be an starting point for a smart contract developer, provide documentation.
+- Openbrush aims to be a starting point for a smart contract developer, provide documentation.
 - Contribute to ink! and substrate `contract-pallet` to improve the smart-contract development experience(add new features, fix bugs, etc).
 
 ## Team :busts_in_silhouette:
@@ -85,39 +85,39 @@ Objectively speaking based on what we know, what we currently see and what was l
 ### Legal Structure
 
 * **Registered Address:** Dubai Silicon Oasis, DDP, Building A2, Dubai, UAE. 
-* **Registered Legal Entity:** Mempool Ventures FZCO, operating unde Supercolony brand
+* **Registered Legal Entity:** Mempool Ventures FZCO, operating under Supercolony brand
 
 ### Team's experience
 
 **Markian Ivanichok**  
-CEO of Supercolony
-Blockchain enterpreneur, Software Engineer
-Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that helps enterpreneers to move faster. 
-Since the beginning of this year co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
+CEO of Supercolony,
+Blockchain enterpreneur, Software Engineer.
+Started my engineering carrer back when I was 15. Since then, I developed and got a lot of experience in engineerig and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps enterpreneers to move faster. 
+Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
 **Hartej Sawhney**  
-Partner
-Hartej is a founder and partner in Zokyo  crypto investor, advisor, and operator, with a strong knowledge of blockchain engineering, blockchain security, decentralized finance (DeFi), and NFT’s.
+Co-Founder and President of Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund, Pink Sky Capital, Krypto.io, and BlitzPredict.io.
+
 
 **Dmitry Kryshtal**  
 Head of Marketing and BD  
-8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on biggest crypto-related YouTube channel in CIS – S3XYBTC.
+8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on the biggest crypto-related YouTube channel in CIS – S3XYBTC.
 
 **Green Baneling**  
 Blockchain Core Developer  
 Primary programming languages are: C++, Go, Rust  
 
-Finished the faculty of applied mathematic(Master of degree). Participated in programming competitions during education. Working as a programmer for around 6 years.  
+Finished the faculty of applied mathematic(Master of degree). Participated in programming competitions during education. Has worked as a programmer for around 6 years.  
 
-First-year was a freelancer, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that 2 years in the company which creating software for TV devices(C++/ Haxe). After that 3 years on different blockchain projects(C++/Go/Rust/Solidity/Js).
+Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe).  After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
 **Varg Vikernes**
-Junior Blockchain Engineer
-Was working in Big Data prior to blockchain, now switched to developing on Polkadot and have zero regrets
+Junior Blockchain Engineer,
+Worked in Big Data prior to blockchain, has now switched to developing on Polkadot and doesn’t regret it one bit.
 
 **Sven Seven**  
 Fullstack Developer  
-Software engineer with prod experience since 2015. Master degree Information Security. Was working in finance, e-commerce, networking domains as full-stack dev. Programming languages are JS, Java, Python, Rust, C++ . Blockchain dev since 2021.
+Software engineer with prod experience since 2015. Master degree Information Security. Has worked in finance, e-commerce, networking domains as full-stack dev. Programming languages are JS, Java, Python, Rust, C++ . Blockchain dev since 2021.
 
 **Vasyl Novak**  
 Researcher
@@ -125,8 +125,7 @@ BS in economics, MS in Quantitative Finance & Actuarial Science, experienced in,
 
 **Lera Laricheva**  
 Creative Designer  
-"In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that to design. At first I tried myself in design, then when I saw the result and understood that I liked it, I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the work in the company is much better, and that is where a person can get a tremendous experience, always evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time I’m studying the third year in Karazin, specialty marketing."
-
+"In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that, to design. At first I tried myself in design, then when I saw the result, and understood that I liked it, so I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the working for a company is much better, and that is where a person can get a tremendous amount of experience, while constantly evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time, it is my third year studying in Karazin, specialty marketing."
 
 ### Team Code Repos
 
@@ -175,8 +174,8 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 | Number | Deliverable                      | Specification                                                                                                                                                                                                    |
 | -----  | -----------                      | -------------                                                                                                                                                                                                    |
 | 0a.    | License                          | MIT                                                                                                                                                                                                              |
-| 0b.    | Documentation                    | We will enhance inline documentation, and write a tutorial on how to import/customize contracts.                                                                                                      |
-| 0c.    | Testing Guide                    | We will add unit tests to cover all basic logic and integration tests with Redspot to verify that all works via `contract-pallet`                                            |
+| 0b.    | Documentation                    | We will enhance inline documentation, and create a tutorial on how to import/customize contracts.                                                                                                      |
+| 0c.    | Testing Guide                    | We will add unit tests to cover all basic logic and integration tests with Redspot, to verify that all works via `contract-pallet`                                            |
 | 1a.    | Fungible token(Erc20)            | We will implement reusable [Erc20](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20) analog on ink! |
 | 1b.    | Non Fungible token(Erc721)       | We will implement reusable [Erc721](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) analog on ink!                                                                                                         |
 | 1b.    | Multi token(Erc1155)             | We will implement reusable [Erc1155](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC1155) analog on ink!                                                                                                         |
@@ -193,7 +192,7 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 | -----  | -----------                                         | -------------                                                                                                                                                                                    |
 | 0a.    | License                                             | MIT                                                                                                                                                                                              |
 | 0b.    | Documentation                                       | We will enhance inline documentation, update previous documentation based on simplifications, documentation for new features.                                                                                        |
-| 0c.    | Testing Guide                                       | We will test macros, update tests according new features, simplifications.                                                                                               |
+| 0c.    | Testing Guide                                       | We will test macros, update tests according to new features, simplifications.                                                                                               |
 | 1.     | Remove boilerplate code                             | We will provide a macro which will allow to remove boilerplate during usage of library(Library provides implementation on rust level in internal trait. User must reuse internal implementation with ink! messages. Our macro will simplify it). It will simplify the code structure and usage. |
 | 2.     | Derive for storages                                 | We will provide a derive macro to generate implementation for storage's structs. It will simplify integration of fields inside of struct and implementation of storage's traits for that fields. |
 | 3.     | Support default implementation in external traits   | We will add mnemonic support of default implementations inside of trait definition(traits defined via `#[ink::trait_definition]`). It is mnemonic, because under the hood we will generate internal trait with default implementation that will be used in external trait.  |
@@ -208,12 +207,12 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 | Number | Deliverable                                              | Specification                                                                                                                             |
 | -----  | -----------                                              | -------------                                                                                                                             |
 | 0a.    | License                                                  | MIT                                                                                                                                       |
-| 0b.    | Documentation                                            | We will provide inline documentation for macros, write a tutorial on how to use macros in own project with detailed description how it works inside. |
-| 0c.    | Testing Guide                                            | We will add more tests to cover all macros, update tests according new changes.                                                           |
-| 1.     | Create Proposal for Fungible token                       | We will create a proposal for standardization of Erc20 token in case of ink! and `contract-pallet`. Based on final decision about proposal update the implementation in library.              |
-| 2.     | Support of modifiers                                     | We will add support of modifiers like in Solidity. User will be able to mark some function to use modifiers and it will simplify the code. |
+| 0b.    | Documentation                                            | We will provide inline documentation for macros, create a tutorial on how to use macros in your own project, with a detailed description of how it works inside. |
+| 0c.    | Testing Guide                                            | We will add more tests to cover all macros, update tests according to new changes.                                                           |
+| 1.     | Create Proposal for Fungible token                       | We will create a proposal for standardization of Erc20 token in case of ink! and `contract-pallet`. Based on the final decision regarding the proposal update the implementation in library.              |
+| 2.     | Support of modifiers                                     | We will add support of modifiers, like in Solidity. User will be able to mark some function to use modifiers and it will simplify the code. |
 | 3.     | ReentrancyGuard                                          | We will add implementation of [ReentrancyGuard](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol) |
-| 4.     | Create Proposal for Non Fungible token and Multi token   | We will create proposals for NFT and multi token, when proposal for FT token will be approved. Based on decisions in these approves we will update implementation in library. |
+| 4.     | Create Proposal for Non Fungible token and Multi token   | We will create proposals for NFT and multi token, when proposal for FT token will be approved. Based on the decisions of these approves, we will update implementation in library. |
 
 ### Milestone 4. Release - Implement extensions for contracts. Contribution to ink!
 
@@ -229,7 +228,7 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 | 1.     | Implement extensions for tokens                                          | We will implement extensions for Erc20, Erc721 and Erc1155 tokens.              |
 | 2.     | Implement additional useful contract                                     | We will implement [PaymentSplitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol), [TimelockController](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/TimelockController.sol) and etc. |
 | 3.     | Contribute to ink! with fixing of events                                 | We will help to fix the [issue](https://github.com/paritytech/ink/issues/809) with events. |
-| 4.     | Add support of default implementation in trait definition on ink! level  | We will help with supporting of default implementation inside of trait definition. It will require conversations with ink! team to define the best way how to implement that without conflicts with their future changes.  |
+| 4.     | Add support of default implementation in trait definition on ink! level  | We will help with the support of default implementation inside of trait definition. It will require discussions with the ink! team to define the best way how to implement that without conflicts with their future changes.  |
 
 ### Milestone 5 - Support of upgradable contracts
 
@@ -242,14 +241,14 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 | 0a.    | License                          | MIT                                                                                                                                       |
 | 0b.    | Documentation                    | We will provide inline documentation, example of upgradable contracts. |
 | 0c.    | Testing Guide                    | We will add tests to cover upgradability of contracts.                                                           |
-| 1.     | Implement delegated call         | We will find and provide the idea how [delegeted call](https://docs.soliditylang.org/en/v0.4.21/introduction-to-smart-contracts.html#delegatecall-callcode-and-libraries) can be implemented in `contract-pallet`. Help with implementation of it.            |
+| 1.     | Implement delegated call         | We will find and provide the idea of how [delegeted call](https://docs.soliditylang.org/en/v0.4.21/introduction-to-smart-contracts.html#delegatecall-callcode-and-libraries) can be implemented in `contract-pallet`. Help with it's implementation.            |
 | 2.     | Help with fallback function      | We will help with implementation of [fallback function](https://github.com/paritytech/ink/issues/739) if it is not ready. |
-| 3.     | Creation of Proxy contracts      | We will an analog of [Proxy](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/proxy) contracts. |
-| 4.     | Documentation and examples       | We will add examples and documentation how must be implemented upgradable contract.  |
+| 3.     | Creation of Proxy contracts      | We will provide an alternative of [Proxy](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/proxy) contracts. |
+| 4.     | Documentation and examples       | We will add examples and documentation on how the upgradable contract must be implemented.  |
 
 ## Future Plans
 
-We're going to make strong impact on community, making ink! simple and convenient for developers.
+We're going to make strong impact on the community, making ink! simple and convenient for developers.
 - Experise sharing
    - Covering all crypto-related news websites, creating workshops online, handling all relevant forums and social networks
 - Becoming an entry point for a developer starting in ink!/Wasm
@@ -271,5 +270,5 @@ We didn't applied to any of grant programs.
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 * Work you have already done.
-* Wheter there are any other teams who have already contributed (financially) to the project.
+* Whether there are any other teams who have already contributed (financially) to the project.
 * Previous grants you may have applied for.
