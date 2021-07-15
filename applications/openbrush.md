@@ -73,6 +73,7 @@ Objectively speaking based on what we know, what we currently see and what was l
 **Green Baneling** (Blockchain Core Rust Engineer)  
 **Sven Seven** (Fullstack Rust Engineer)  
 **Varg Vikernes** (Blockchain Rust Engineer)  
+**Vasyl Novak** (Researcher)
 **Lera Laricheva** (Designer)  
 
 ### Contact
@@ -94,7 +95,12 @@ Blockchain enterpreneur, Software Engineer
 Started my engineering carrer back when I was 15th. Since then developed and got lots of experience in engineerig and leadership. Got entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, on of the top consulting companies in Ukraine that helps enterpreneers to move faster. 
 Since the beginning of this year co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
+**Hartej Sawhney**  
+Partner
+Hartej is a founder and partner in Zokyo  crypto investor, advisor, and operator, with a strong knowledge of blockchain engineering, blockchain security, decentralized finance (DeFi), and NFT’s.
+
 **Dmitry Kryshtal**  
+Head of Marketing and BD  
 8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on biggest crypto-related YouTube channel in CIS – S3XYBTC.
 
 **Green Baneling**  
@@ -113,12 +119,14 @@ Was working in Big Data prior to blockchain, now switched to developing on Polka
 Fullstack Developer  
 Software engineer with prod experience since 2015. Master degree Information Security. Was working in finance, e-commerce, networking domains as full-stack dev. Programming languages are JS, Java, Python, Rust, C++ . Blockchain dev since 2021.
 
+**Vasyl Novak**  
+Researcher
+BS in economics, MS in Quantitative Finance & Actuarial Science, experienced in, operations management,  IB, financial and stratedy consulting, including crypto, passed CFA II level 
+
 **Lera Laricheva**  
 Creative Designer  
 "In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that to design. At first I tried myself in design, then when I saw the result and understood that I liked it, I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the work in the company is much better, and that is where a person can get a tremendous experience, always evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time I’m studying the third year in Karazin, specialty marketing."
 
-**Hartej Sawhney**  
-Hartej is the Co-Founder and President for Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund Pink Sky Capital, Krypto.io, and BlitzPredict.io.
 
 ### Team Code Repos
 
@@ -243,13 +251,21 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 
 We're going to make strong impact on community, making ink! simple and convenient for developers.
 
-- Sharing our experience in text and video format on different crypto or tech resources  
+- Sharing our experience in text and video format on different crypto and tech resources  
+–– Covering all crypto-related news websites, creating workshops online, handling all relevant forums and social networks
 - Creating a knowledge base regarding ink!  
+–– Nonstop updating our FAQ and knowledge base, creating educational content (text\video)
 - Delevoping marketing and PR strategy  
-- Involving new developers
+–– Organizing hackatons, Developing growthhacking strategy for involving developers from different channels
 
 
 ## Additional Information :heavy_plus_sign:
+
+So far we have taken it upon ourselves to fund this project. We knew about Web3 Grants program, firstly we decided to start it by ourselves and only after success steps we decided to fill in the grants form and spread the world about Openbrush.  
+
+In roadmap you can see what we have done, currently we're on the 3-rd milestone.  
+
+We didn't applied to any of grant programs.
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
