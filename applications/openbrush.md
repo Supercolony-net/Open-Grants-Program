@@ -250,13 +250,12 @@ At this point of time Milestone 1 and 2 are finished and 3rd is in progress.
 ## Future Plans
 
 We're going to make strong impact on community, making ink! simple and convenient for developers.
-
-- Sharing our experience in text and video format on different crypto and tech resources  
-–– Covering all crypto-related news websites, creating workshops online, handling all relevant forums and social networks
-- Creating a knowledge base regarding ink!  
-–– Nonstop updating our FAQ and knowledge base, creating educational content (text\video)
-- Delevoping marketing and PR strategy  
-–– Organizing hackatons, Developing growthhacking strategy for involving developers from different channels
+- Experise sharing
+   - Covering all crypto-related news websites, creating workshops online, handling all relevant forums and social networks
+- Becoming an entry point for a developer starting in ink!/Wasm
+   - Nonstop updating our FAQ and knowledge base, creating educational content (text\video)
+- Marketing and PR strategy  
+   - Organizing hackatons, Developing growthhacking strategy for involving developers from different channels
 
 
 ## Additional Information :heavy_plus_sign:
