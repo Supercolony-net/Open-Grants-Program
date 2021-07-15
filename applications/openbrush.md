@@ -11,7 +11,7 @@ Standard proposal - https://github.com/w3f/PSPs/pull/22
 ### Overview
 Our mission within this project is to make ink! usable, and achieve its wide adoption.
 
-In order to be successful with this mission, several steps need to be taken. 
+In order to be successful with this mission, we have outlined several steps that need to be taken. 
 1. OpenBrush is an open source library for secure smart-contract development on ink! as
 [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
@@ -73,7 +73,7 @@ Objectively speaking based on what we know, what we currently see, and what was 
 **Green Baneling** (Blockchain Core Rust Engineer)  
 **Sven Seven** (Fullstack Rust Engineer)  
 **Varg Vikernes** (Blockchain Rust Engineer)  
-**Vasyl Novak** (Researcher)
+**Vasyl Novak** (Researcher)  
 **Lera Laricheva** (Designer)  
 
 ### Contact
@@ -258,17 +258,13 @@ We're going to make strong impact on the community, making ink! simple and conve
 
 
 ## Additional Information :heavy_plus_sign:
+So far we have taken it upon ourselves to fund this project. 
+In the roadmap you can see what was already done, currently we're on the 3-rd milestone.  
 
-So far we have taken it upon ourselves to fund this project. We knew about Web3 Grants program, firstly we decided to start it by ourselves and only after success steps we decided to fill in the grants form and spread the world about Openbrush.  
+We haven’t applied for any other grant programs.
 
-In roadmap you can see what we have done, currently we're on the 3-rd milestone.  
-
-We didn't applied to any of grant programs.
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+personal recommendation
 
-* Work you have already done.
-* Whether there are any other teams who have already contributed (financially) to the project.
-* Previous grants you may have applied for.
