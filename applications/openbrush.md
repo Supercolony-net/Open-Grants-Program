@@ -51,13 +51,13 @@ Our project is the starting point for smart contract developers, coming from oth
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
-We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem.
+We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same commmon end goal. And as we agreed with them metis and Openbrush have slighlighly different agendas in mind and also applications, so hopefully they will compliment each other. 
 
 * If so, how is your project different?
 
 Our project isn't restricted to only providing the base implementation of contracts.
-Objectively speaking based on what we know, what we currently see, and what was listed in their proposal here are key differences:
-- At the moment, Developer Experience of our library is significantly higher
+Objectively speaking based on what we know, and what was listed in their proposal here are key differences:
+- At the moment, Openbrush is in far more advanced stage, Developer Experience of our library is significantly higher
 - Openbrush aims to propose and take care of standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/22) for fungible tokens and we plan to cotinue doing so)
 - Openbrush aims to be a starting point for a smart contract developer, provide documentation.
 - Contribute to ink! and substrate `contract-pallet` to improve the smart-contract development experience(add new features, fix bugs, etc).
