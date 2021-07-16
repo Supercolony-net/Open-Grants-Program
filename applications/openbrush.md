@@ -16,7 +16,7 @@ In order to be successful with this mission, we have outlined several steps that
 [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
 2. Openbrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem. 
-3. In addition to having a standard implementation, Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development,
+3. In addition to having a standard implementation, Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development.
 4. In order for Openbrush to work and fulfill it's purpose, several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
 
 This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a huge part of it. 
@@ -146,7 +146,6 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 * https://www.linkedin.com/in/hartej/
 * https://www.linkedin.com/in/dmitry-kryshtal/
 * https://www.linkedin.com/in/valeria-laricheva/
-* https://www.linkedin.com/in/valeria-laricheva/
 
 ## Development Status :open_book:
 
@@ -266,5 +265,5 @@ We haven’t applied for any other grant programs.
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
-personal recommendation
+Rersonal recommendation.
 
