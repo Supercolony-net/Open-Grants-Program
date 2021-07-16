@@ -51,7 +51,7 @@ Our project is the starting point for smart contract developers, coming from oth
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
-We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same commmon end goal. And as we agreed with them metis and Openbrush have slighlighly different agendas in mind and also applications, so hopefully they will compliment each other. 
+We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same commmon end goal. 
 
 * If so, how is your project different?
 
