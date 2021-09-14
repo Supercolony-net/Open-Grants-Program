@@ -13,7 +13,7 @@ It is an application for a follow-up grant. The [initial grant](https://github.c
  - [Openbrush Milestone 1 delivery report](https://github.com/w3f/Grant-Milestone-Delivery/pull/249)
  - [Openbrush Milestone 2 delivery report](https://github.com/w3f/Grant-Milestone-Delivery/pull/261)
 
-This grant aims to cover milestones 3-5.
+This grant aims to cover milestones 3-6.
 
 ### Overview
 Our mission within this project is to make ink! usable, and achieve its wide adoption.
@@ -163,11 +163,11 @@ PSP - https://github.com/w3f/PSPs/pull/25
 
 ### Overview
 
-**We have decided to describe a full roadmap of an Openbrush here, with estimates. However, the funding we request at this stage is for milestones 3-5.**
+**We have decided to describe a full roadmap of an Openbrush here, with estimates. However, the funding we request at this stage is for milestones 3-6.**
 
-* **Total Estimated Duration:** 14 weeks(+ time for approving changes in ink!, substrate, and PSP repositories)
+* **Total Estimated Duration:** 16 weeks(+ time for approving changes in ink!, substrate, and PSP repositories)
 * **Full-Time Equivalent (FTE):** 2.5
-* **Total Costs:** 65,000 USD
+* **Total Costs:** 72,500 USD
 
 ### Previous work
 
@@ -211,7 +211,19 @@ PSP - https://github.com/w3f/PSPs/pull/25
 
 ### Current work - Scope of this Grant
 
-#### Milestone 3. Pre-release - Standardization of tokens contracts. Implement extensions for contracts. Documentation.
+#### Milestone 3. Reduce the size of Erc20 contract.
+
+* **Estimated Duration:** 2 weeks
+* **FTE:**  1.5
+* **Costs:** 7,500 USD
+
+| Number | Deliverable                                              | Specification                                                                                                                             |
+| -----  | -----------                                              | -------------                                                                                                                             |
+| 0a.    | License                                                  | MIT                                                                                                                                       |
+| 0b.    | Documentation                                            | We will provide a report of how much each optimization reduced the size. |
+| 1.     | Reduce the size of Erc20 contract                        | Now the most critical moment with ink! is the huge size of contracts. [This issue](https://github.com/paritytech/substrate/issues/9354) described the problem very well. The parity team works in this direction, and we want to help with ink! side. The ink! team created issue [906](https://github.com/paritytech/ink/issues/906) and [910](https://github.com/paritytech/ink/issues/910). We want to briefly(not full change, only minimal changes to reduce the size) implement them and provide a report. Based on this report, the ink! team can decide how better to implement them and which part is more critical. During the implementation, we will build examples with our version of ink! (also maybe we will modify some sub-crates). So the output of this work is a report and custom version of ink!. The code can be reused, or if ink! team agrees we can try to implement these issues by ourselves later as separate work.             |
+
+#### Milestone 4. Pre-release - Standardization of tokens contracts. Implement extensions for contracts. Documentation.
 
 * **Estimated Duration:** 3 weeks(+ time for PSP approving)
 * **FTE:**  2.5
@@ -226,7 +238,7 @@ PSP - https://github.com/w3f/PSPs/pull/25
 | 2.     | Implement extensions for tokens                          | We will implement extensions for Erc20, Erc721 and Erc1155 tokens.              |
 | 3.     | Create Proposal for Non Fungible token and Multi token   | We will create proposals for NFT and multi token, when proposal for FT token will be approved. Based on the decisions of these approves, we will update implementation in library. |
 
-#### Milestone 4. Release - Contribution to ink!
+#### Milestone 5. Release - Contribution to ink!
 
 * **Estimated Duration:** 4 weeks(time depends on conversations in ink! repository)
 * **FTE:**  2
@@ -241,7 +253,7 @@ PSP - https://github.com/w3f/PSPs/pull/25
 | 2.     | Add support of default implementation in trait definition on ink! level  | We will help with the support of default implementation inside of trait definition. It will require discussions with the ink! team to define the best way how to implement that without conflicts with their future changes.  |
 | 3.     | Refactor of implementation according changes in ink!                     | After changes in ink! we will refactor the code of library.  |
 
-#### Milestone 5 - Support of upgradable contracts
+#### Milestone 6 - Support of upgradable contracts
 
 * **Estimated Duration:** 7 weeks(time depends on conversations in ink! and `contract-pallet` repositories)
 * **FTE:**  2.5
