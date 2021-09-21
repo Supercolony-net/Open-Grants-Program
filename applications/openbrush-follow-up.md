@@ -16,7 +16,7 @@ It is an application for a follow-up grant. The [initial grant](https://github.c
 This grant aims to cover milestones 3-6.
 
 ### Overview
-Our mission within this project is to increase ink! usability, and achieve its wide adoption.
+The mission for this project is to make ink! usable and facilitate WASM ecosystem wide adoption. 
 
 To be successful with this mission, we have outlined several steps that need to be taken.
 1. OpenBrush is an open-source library for secure smart-contract development on ink! as
@@ -29,14 +29,14 @@ To be successful with this mission, we have outlined several steps that need to 
 This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a considerable part of it.
 
 ### Project Details
-OpenBrush must be the starting point for every smart contract developers coming from Ethereum.
+OpenBrush should serve as a starting point for every smart contract developers coming from Ethereum.
 It will contain the same folder structure as OpenZeppelin. The extended documentation will cover several topics:
 the differences between ink! and Solidity, how developers should change their mindset, how to design their project,
 how to deploy contracts and test them, etc.
 
 The library will provide the default implementation of standard contracts, which
 can be customized by developers. Also, the library will provide additional
-features which are not available in ink!(and our team will try to integrate them into ink! later),
+features useful for development which are not available in ink! yet(the plan is to integrate them to ink! itself at a later point within Openbrush scope),
 but which can be useful for development.
 
 Our team aims to improve the smart-contract development experience,
@@ -74,11 +74,11 @@ Objectively speaking, based on what we know and what was listed in their proposa
 ### Team members
 
 **Markian Ivanichok** (Founder & Blockchain Engineer)  
-**Ian Arden** (Advisor)  
-**Hartej Sawhney** (Advisor)  
-**Dmitry Kryshtal** (Marketing and BD)  
+**Ian Arden** (Advisor) 
 **Green Baneling** (Blockchain Core Rust Engineer)  
 **Sven Seven** (Fullstack Rust Engineer)  
+**Pierre Ossun** (Rust Engineer) 
+**Dmitry Kryshtal** (Marketing)  
 **Varg Vikernes** (Blockchain Rust Engineer)  
 **Vasyl Novak** (Researcher)  
 **Lera Laricheva** (Designer)
@@ -102,11 +102,8 @@ Blockchain entrepreneur, Software Engineer.
 Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster.
 Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
-**Hartej Sawhney**  
-Co-Founder and President of Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund, Pink Sky Capital, Krypto.io, and BlitzPredict.io.
-
 **Dmitry Kryshtal**  
-Head of Marketing and BD  
+Head of Marketing 
 8 years experienced T-Shaped marketer with a deeper understanding of analytics, creativity and strategy. Opinion leader in the cryptocurrency environment since 2017. Co-owner of the creative agency Citadel. Host of his own program on the biggest crypto-related YouTube channel in CIS – S3XYBTC.
 
 **Green Baneling**  
@@ -283,7 +280,7 @@ We're going to make a strong impact in the community, making ink! simple and con
 ## Additional Information :heavy_plus_sign:
 In the roadmap, you can see what was already done. Currently, we're on the 3-rd milestone.
 
-We have applied only for the [grant](https://github.com/w3f/Grants-Program/pull/497) to cover 1 and 2 milestones.
+We have applied and got the [grant](https://github.com/w3f/Grants-Program/pull/497) to cover 1 and 2 milestones. This grant is a follow-up grant. 
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
