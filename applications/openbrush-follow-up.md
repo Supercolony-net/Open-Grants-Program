@@ -16,23 +16,23 @@ It is an application for a follow-up grant. The [initial grant](https://github.c
 This grant aims to cover milestones 3-6.
 
 ### Overview
-Our mission within this project is to make ink! usable, and achieve its wide adoption.
+Our mission within this project is to increase ink! usability, and achieve its wide adoption.
 
-In order to be successful with this mission, we have outlined several steps that need to be taken.
-1. OpenBrush is an open source library for secure smart-contract development on ink! as
+To be successful with this mission, we have outlined several steps that need to be taken.
+1. OpenBrush is an open-source library for secure smart-contract development on ink! as
    [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
-2. Openbrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem.
+2. OpenBrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem.
 3. In addition to having a standard implementation, Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development.
-4. In order for Openbrush to work and fulfill it's purpose, several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
+4. In order for Openbrush to fulfill its purpose, several changes must be made & several blockers to be overcome in `ink!` and in Substrate's `pallet-contracts`. We are committed to do that in the context of this project.
 
-This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a huge part of it.
+This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a considerable part of it.
 
 ### Project Details
-The open brush should be the starting point for smart contract developers from Ethereum.
-It will contain the same folder structure as openzeppelin and documentation that describes the differences
-between ink! and Solidity, how developers should change their mindset, how to design their project,
-how to deploy contract and test them, etc.
+OpenBrush must be the starting point for every smart contract developers coming from Ethereum.
+It will contain the same folder structure as OpenZeppelin. The extended documentation will cover several topics:
+the differences between ink! and Solidity, how developers should change their mindset, how to design their project,
+how to deploy contracts and test them, etc.
 
 The library will provide the default implementation of standard contracts, which
 can be customized by developers. Also, the library will provide additional
@@ -46,28 +46,28 @@ and wants to improve ink!, make it more user-friendly and to popularize it.
 
 * Where and how does your project fit into the ecosystem?
 
-The necessity of a solution like this seemed rather urgent to us when we started to work with ink!. We quikcly realized that we strategically would like to become the company that builds in the ecosystem. We decided that we want to commit and help ink! become widespread and used. Right now usability of ink! is very low. Openbrush is dedicated to change that.
+The necessity of a solution like this seemed rather urgent to us when we started to work with ink!. We quickly realized that we strategically would like to become the company that builds in the ecosystem. We decided that we wanted to commit and help ink! become widely used. Right now usability of ink! can be easily improved. OpenBrush is dedicated to change that.
 
 * Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-Our target audience are smart contract developers on ink!.
+Our target audience is smart contract developers on ink!.
 
 * What need(s) does your project meet?
 
-Our project is the starting point for smart contract developers, coming from other ecosystems like Ethereum, and it aims to improve smart contract development on ink!.
+Our project is the starting point for smart contract developers coming from other ecosystems like Ethereum, and it aims to improve smart contract development on ink!.
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
-We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same commmon end goal.
+We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same common goal.
 
 * If so, how is your project different?
 
 Our project isn't restricted to only providing the base implementation of contracts.
-Objectively speaking based on what we know, and what was listed in their proposal here are key differences:
-- At the moment, Openbrush is in far more advanced stage, Developer Experience of our library is significantly higher
-- Openbrush aims to propose and take care of standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/25) for fungible tokens and we plan to cotinue doing so)
-- Openbrush aims to be a starting point for a smart contract developer, provide documentation.
-- Contribute to ink! and substrate `contract-pallet` to improve the smart-contract development experience(add new features, fix bugs, etc).
+Objectively speaking, based on what we know and what was listed in their proposal, here are key differences:
+- At the moment, OpenBrush is in far more advanced stage, Developer Experience of our library is significantly higher.
+- OpenBrush aims to propose and take care of standards for ink! (We've already created [PSP](https://github.com/w3f/PSPs/pull/25) for fungible tokens, and we plan to continue doing so)
+- OpenBrush aims to be a starting point for any smart contract developer by providing documentation.
+- Contribute to ink! and Substrate `contract-pallet` to improve the smart-contract development experience(add new features, fix bugs, etc.).
 
 ## Team :busts_in_silhouette:
 
@@ -98,8 +98,8 @@ Objectively speaking based on what we know, and what was listed in their proposa
 
 **Markian Ivanichok**  
 CEO of Supercolony,
-Blockchain enterpreneur, Software Engineer.
-Started my engineering carrer back when I was 15. Since then, I developed and got a lot of experience in engineerig and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps enterpreneers to move faster.
+Blockchain entrepreneur, Software Engineer.
+Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster.
 Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
 **Hartej Sawhney**  
@@ -113,13 +113,13 @@ Head of Marketing and BD
 Blockchain Core Developer  
 Primary programming languages are: C++, Go, Rust
 
-Finished the faculty of applied mathematic(Master of degree). Participated in programming competitions during education. Has worked as a programmer for around 6 years.
+Finished the faculty of applied mathematics(Master degree). Participated in programming competitions during education. Has worked as a programmer for around 6 years.
 
 Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe).  After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
 **Varg Vikernes**
 Junior Blockchain Engineer,
-Worked in Big Data prior to blockchain, has now switched to developing on Polkadot and doesn’t regret it one bit.
+Worked in Big Data prior to blockchain, has now switched to developing on Polkadot and doesn't regret it one bit.
 
 **Sven Seven**  
 Fullstack Developer  
@@ -127,11 +127,11 @@ Software engineer with prod experience since 2015. Master degree Information Sec
 
 **Vasyl Novak**  
 Researcher
-BS in economics, MS in Quantitative Finance & Actuarial Science, experienced in, operations management,  IB, financial and stratedy consulting, including crypto, passed CFA II level
+BS in economics, MS in Quantitative Finance & Actuarial Science, experienced in, operations management,  IB, financial and strategy consulting, including crypto, passed CFA II level
 
 **Lera Laricheva**  
 Creative Designer  
-"In 2019 I started to get involved in the IT area. At first I tried myself as a developer, and eventually I went away from that, to design. At first I tried myself in design, then when I saw the result, and understood that I liked it, so I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the working for a company is much better, and that is where a person can get a tremendous amount of experience, while constantly evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time, it is my third year studying in Karazin, specialty marketing."
+"In 2019 I started to get involved in the IT area. At first, I tried myself as a developer, and eventually I went away from that, to design. At first, I tried myself in design, then when I saw the result, and understood that I liked it, so I found courses and got a diploma. Then I tried freelancing, like many other beginners, but came to the conclusion that the working for a company is much better, and that is where a person can get a tremendous amount of experience, while constantly evolving, because you have to keep up with the tasks, and most importantly to understand them and try to implement them correctly. At the same time, it is my third year studying in Karazin, specialty marketing."
 
 ### Team Code Repos
 
@@ -163,7 +163,7 @@ PSP - https://github.com/w3f/PSPs/pull/25
 
 ### Overview
 
-**We have decided to describe a full roadmap of an Openbrush here, with estimates. However, the funding we request at this stage is for milestones 3-6.**
+**We have decided to describe a full roadmap of an OpenBrush here, with estimates. However, the funding we request at this stage is for milestones 3-6.**
 
 * **Total Estimated Duration:** 16 weeks(+ time for approving changes in ink!, substrate, and PSP repositories)
 * **Full-Time Equivalent (FTE):** 2.5
@@ -271,17 +271,17 @@ PSP - https://github.com/w3f/PSPs/pull/25
 
 ## Future Plans
 
-We're going to make strong impact on the community, making ink! simple and convenient for developers.
+We're going to make a strong impact in the community, making ink! simple and convenient for developers.
 - Expertise sharing
   - Covering all crypto-related news websites, creating workshops online, handling all relevant forums and social networks
 - Becoming an entry point for a developer starting in ink!/Wasm
   - Nonstop updating our FAQ and knowledge base, creating educational content (text\video)
 - Marketing and PR strategy
-  - Organizing hackathons, Developing growthhacking strategy for involving developers from different channels
+  - Organizing hackathons, Developing growth hacking strategy for involving developers from different channels
 
 
 ## Additional Information :heavy_plus_sign:
-In the roadmap you can see what was already done, currently we're on the 3-rd milestone.
+In the roadmap, you can see what was already done. Currently, we're on the 3-rd milestone.
 
 We have applied only for the [grant](https://github.com/w3f/Grants-Program/pull/497) to cover 1 and 2 milestones.
 
