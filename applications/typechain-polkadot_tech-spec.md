@@ -1,23 +1,13 @@
-Ink! ABIs to TypeScript
-=======================
+TypeChain-Polkadot Technical Specification
+==========================================
 
 
-## Case
-
-When a smart contract is being written, front-end developer receives file representation of it in the format called Application Binary Interface (ABI). One ABI per each contract, new ABI for every update of a contract.
-
-Information about how to interact with a contract (methods names, arguments & returns types etc.) is included in this ABI file. It is not human-readable enough, so extraction of that information becomes a challenge. Guessing is not an option and we need to have correct type definitions for each contract in TypeScript. They can be generated automatically by a script, taking a list of ABIs as an input, giving usable TS type definitions and even runtime code as its output.
-
-Given, that a front-end developer needs to do this with every contracts update, such tool would save a lot of time and prevent mistakes of misusing smart contracts.
-
-
----------
 ## Set-up
 
 In your project install this package like so:
 
 ```bash
-npm i -D @supercolony-net/ink-abi-to-ts
+npm i -D @supercolony-net/typechain-polkadot
 ```
 
 Now you can use it to generate TS definitions & runtime code for your ABIs.
@@ -27,7 +17,7 @@ Now you can use it to generate TS definitions & runtime code for your ABIs.
 Given, that you've put input files in `path/to/input` folder, and want generated code to land in `path/to/output` folder, run the following command:
 
 ```bash
-npx @supercolony-net/ink-abi-to-ts --in path/to/input --out path/to/output
+npx @supercolony-net/typechain-polkadot --in path/to/input --out path/to/output
 ```
 
 > **(i)** Both generated code and ABI files are meant to stay in your source code and be committed. You have a full ownership of the generated code and can use however you like. Though, we will provide examples further.
@@ -226,7 +216,7 @@ For 'mutating' methods, returned `value` doesn't have an `{ ok, err }` structure
 Mind you, that runtime success of the call means actual 'success' of it. Any error, happened during the call is thrown and up for catching like so:
 
 ```typescript
-import type { QueryCallError } from '@supercolony-net/ink-abi-to-ts';
+import type { QueryCallError } from '@supercolony-net/typechain-polkadot';
 
 try {
 	const { value, gasConsumed } = await contract.query.balanceOf(owner, { gasLimit });
@@ -366,7 +356,7 @@ Return value `deferrableTxRequest` is of type `DeferrableTransactionRequest`, an
 <!--
 ## MORE EXAMPLES
 
-> For more examples in TypeScript, please, refer to this repo: https://github.com/Supercolony-net/ink-abi-to-ts_example
+> For more examples in TypeScript, please, refer to this repo: https://github.com/Supercolony-net/typechain-polkadot_example
 -->
 
 

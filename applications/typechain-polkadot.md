@@ -1,38 +1,32 @@
 # W3F Grant Proposal
 
-- **Project Name:** Typechain for Polkadot
-- **Team Name:** [SuperColony](https://github.com/Supercolony-net)
+- **Project Name:** [Typechain-Polkadot](https://github.com/Supercolony-net/typechain-polkadot)
+- **Team Name:** [SuperColony](https://github.com/Supercolony-net)## Development Status :open_book:
 - **Payment Address:** ERC 20 ADDRESS:
-  0xE1B19cE32866cDE87F8f59C7C2C5f90E093A6942
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+0xE1B19cE32866cDE87F8f59C7C2C5f90E093A6942
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** (?)
+
 
 ## Project Overview :page_facing_up:
 
 ### Overview
 
 Nowadays, when technologies are growing faster and faster, we should think about optimizations of different routine processes and making older stuff better. One of these optimizations is to make code typesafe that will be flexible in different situations.
-For now, we have a polkadot.js library, but it provides no typesafe code, so it's hard to understand how to interact with a contract and handle transactions without reading the ABI which becomes challenging. So Typechain is a solution. Developer just need to import the library and use generate typesafe code from contract ABI's.
+
+When a smart contract is being written, front-end developer receives file representation of it in the format called Application Binary Interface (ABI). One ABI per each contract, new ABI for every update of a contract.
+
+Information about how to interact with a contract (methods names, arguments & returns types etc.) is included in this ABI file. It is not quite human-readable, so extraction of that information becomes a challenge. We need to have correct type definitions for each contract in TypeScript.
+
+Interaction with blockchain is done with polkadot.js library, which only has abstract definitions for the contract in use, thus users' code cannot be typesafe. And Typechain-Polkadot can change it.
 
 ### Project Details
 
-Typechain reads ABIs of multiple contracts and generates typesafe typescript code, to interact with them. Users can work with on-chain contracts, but also they can deploy the new contract. Typechain will be written on typescript, so it will have CLI to install it and use it multiple times, and also will have the ability to be imported as a package. It will have different arguments, which can configure the generation of contracts. It also will have documentation on how to use it tool, and how to configure it.
+Typesafe contracts' descriptions can be generated automatically by a script, taking a list of ABIs as an input, giving usable TS type definitions and even runtime code as its output.
 
+Given, that a front-end developer needs to do this with every contracts update, such tool would save a lot of time and prevent mistakes of misusing smart contracts. It is installed as a package with built-in CLI.
 
-The example of usage:
+When contracts descriptions come both with ABI and source code (`*.contract` files), our tool will provide means for deployment as well.
 
-In your project install this package like so:
-
-```bash
-npm i -D @supercolony-net/ink-abi-to-ts
-```
-
-Now you can use it to generate TS definitions & runtime code for your ABIs.
-
-Given, that you've put input files in `path/to/input` folder, and want generated code to land in `path/to/output` folder, run the following command:
-
-```bash
-npx @supercolony-net/ink-abi-to-ts --in path/to/input --out path/to/output
-```
 
 ### Ecosystem Fit
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
@@ -42,7 +36,7 @@ Our project can be used by everybody who wants to fasten the development. So it 
 
 #### Who is your target audience
 
-Our main target audience is front-end developers, but it can be also used by other blockchain developers for testing their contracts.
+Our main target audience is front-end developers, but it can be also used by other blockchain developers for exploring their contracts.
 
 ### What need(s) does your project meet?
 
@@ -56,11 +50,11 @@ No, we are the first project in the ecosystem. But in Solidity ecosystem there i
 
 ### Team members
 
-- Markian Ivanichok (СEO of Supercolony)
-- Toma Sadova (Product Owner | Supercolony)
-- Green Baneling (Blockchain Core Rust Engineer | Supercolony)
-- Alex Seleznov (Front-End Developer | Supercolony)
-- Varex Silver (Blockchain developer | Supercolony)
+- **Markian Ivanichok** (СEO of Supercolony)
+- **Toma Sadova** (Product Owner | Supercolony)
+- **Green Baneling** (Blockchain Core Rust Engineer | Supercolony)
+- **Alex Seleznov** (Front-End Developer | Supercolony)
+- **Varex Silver** (Blockchain developer | Supercolony)
 
 ### Contact
 
@@ -106,7 +100,6 @@ Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), 
 ### Team Code Repos
 
 - https://github.com/Supercolony-net
-- https://github.com/Supercolony-net/<project_1>
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
@@ -123,7 +116,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-We have already started working on Typechain, and you can see the progress on our [GitHub repository TODO](TODO)
+[The project](https://github.com/Supercolony-net/typechain-polkadot) is already a work-in-progress.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -178,7 +171,7 @@ Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 | 1a | RPC calls | Implementation for the methods, making RPC query calls. |
 | 1b | Transactions | Implementation for the methods, related to making transactions. |
 | 2 | Contracts deployment | Implementation for the contracts deployment means. |
-| 3 | Testing | We will provide tests for correctness of TS type definitions, based on a PSP22 contract. |
+| 3 | Testing | We will provide integration tests based on a PSP22 contract. Testing will check correctness of generated TS type definitions. |
 
 
 #### Milestone 4. NPM packaging & release
@@ -197,7 +190,6 @@ Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 <!-- ### Future work -->
 
 
-
 ## Future Plans
 
 After this grant, we will be maintaining the project to keep up with new emerging ecosystem standards and also listen to issues from community and update the tool to make the process of transformation a nicer experience for the developers and teams.
@@ -205,7 +197,7 @@ After this grant, we will be maintaining the project to keep up with new emergin
 
 ## Additional Information :heavy_plus_sign:
 
-We haven’t applied for any other grant programs.
+We haven’t applied for any other grant programs for this project.
 
 **How did you hear about the Grants Program?**
 
