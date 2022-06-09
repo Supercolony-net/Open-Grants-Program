@@ -75,15 +75,15 @@ No, we are the first project in the ecosystem. But in Solidity ecosystem there i
 
 ### Team's experience
 
-**Markian Ivanichok**  
+**Markian Ivanichok**
 CEO of Supercolony, Blockchain entrepreneur, Software Engineer. Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster. Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
-**Toma Sadova**  
+**Toma Sadova**
 Product Owner
 Toma is a Product Owner of OpenBrush, Head of Education and the main organizer of the [the biggest WASM conference](https://wasm-conference.com/). Toma started her career when she was 14. Since then, Toma has gained a lot of experience in IT technologies, management, leadership and crypto. She switched 4 career paths and figured out that blockchain/crypto is her calling!
 
-**Green Baneling**  
-Blockchain Core Developer  
+**Green Baneling**
+Blockchain Core Developer
 Primary programming languages are: C++, Go, Rust
 
 Finished the faculty of applied mathematics(Master degree). Participated in programming competitions during education. Has worked as a programmer for around 6 years.
@@ -100,7 +100,7 @@ Front-End Developer
 
 Blockchain Developer
 
-Student of Computer Science at the Kyiv National University of Taras Shevchenko. Participated in programming competitions of different stages in school since 2017 (C++). 
+Student of Computer Science at the Kyiv National University of Taras Shevchenko. Participated in programming competitions of different stages in school since 2017 (C++).
 Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), and now Blockchain developer(Rust, Typescript).
 
 ### Team Code Repos
@@ -123,58 +123,77 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-We have already started working on Typechain, and you can see the progress on our [GitHub repository TODO](TODO) 
+We have already started working on Typechain, and you can see the progress on our [GitHub repository TODO](TODO)
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+**We are describing a full roadmap of an TypeChainPolkadot here, with estimates.**
 
-### Milestone 1 Example — Implement Substrate Modules
+* **Total Estimated Duration:** 10 - 16 weeks
+* **Full-Time Equivalent (FTE):** 2
+* **Total Costs:** ? USD
 
-- **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+
+### Current work - Scope of this Grant
+
+#### Milestone 1 - Parsing of ABI files
+
+* **Estimated duration:** 2 - 4 weeks
+* **FTE:**  1.5
+* **Costs:** ? USD
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| -----  | ----------- | ------------- |
+| 1 | ABI versions support | We will support parsing of ABI v3. Earlier versions are up to a research. |
+| 2 | TS types | We will research & match types from ABI to TS types, compatible with [polkadot{.js} v8](https://polkadot.js.org) library. Separately, for methods' arguments and return values. |
+| 3 | Parser output | Parsing results in data structure, serving as a base for code generation. |
 
 
-### Milestone 2 Example — Additional features
+#### Milestone 2 - Generation of output structure in TS (yet, without methods’ implementation)
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+* **Estimated duration:** 3 - 4 weeks
+* **FTE:**  1.15
+* **Costs:** ? USD
 
-...
+| Number | Deliverable | Specification |
+| -----  | ----------- | ------------- |
+| 1a | Arguments and return values | Generation of TS types definitions for contracts' methods' arguments and return values. |
+| 1b | Methods | Generation of methods for `query`, `buildExtrinsic`, `tx` and `methods` namespaces. Without implementation yet. |
+| 1c | Contracts' classes | Generation of contract's classes. For both ABIs in `*.json` & `*.contract` input files.
+| 2 | Code usability | We will provide JSDoc for generated code, refactor type system for better usability, if needed. |
+
+
+#### Milestone 3. Methods implementation
+
+* **Estimated Duration:** 4 - 6 weeks
+* **FTE:**  1.25
+* **Costs:** ? USD
+
+| Number | Deliverable | Specification |
+| -----  | ----------- | ------------- |
+| 1a | RPC calls | Implementation for the methods, making RPC query calls. |
+| 1b | Transactions | Implementation for the methods, related to making transactions. |
+| 2 | Contracts deployment | Implementation for the contracts deployment means. |
+| 3 | Testing | We will provide tests for correctness of TS type definitions, based on a PSP22 contract. |
+
+
+#### Milestone 4. NPM packaging & release
+
+* **Estimated Duration:** 1 - 2 weeks
+* **FTE:**  1.25
+* **Costs:** ? USD
+
+| Number | Deliverable | Specification |
+| -----  | ----------- | ------------- |
+| 1a | Preparation | We will prepare code for usage as an NPM package with CLI, make sure it works across platforms. |
+| 1b | Publishing | Publishing to the [NPM repository](https://npmjs.com). We will provide package's set-up and usage instructions. |
+| 2 | Usage examples | We will provide a separate repository with package's usage examples. |
+
+
+<!-- ### Future work -->
+
 
 
 ## Future Plans
@@ -184,5 +203,5 @@ After this grant, we will be maintaining the project to keep up with new emergin
 
 ## Additional Information :heavy_plus_sign:
 
-How did you hear about the Grants Program? 
+How did you hear about the Grants Program?
 - Personal recommendation
