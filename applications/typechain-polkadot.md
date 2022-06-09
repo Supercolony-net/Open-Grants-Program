@@ -131,6 +131,8 @@ We have already started working on Typechain, and you can see the progress on ou
 
 **We are describing a full roadmap of an TypeChainPolkadot here, with estimates.**
 
+Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
+
 * **Total Estimated Duration:** 10 - 16 weeks
 * **Full-Time Equivalent (FTE):** 2
 * **Total Costs:** ? USD
@@ -203,5 +205,10 @@ After this grant, we will be maintaining the project to keep up with new emergin
 
 ## Additional Information :heavy_plus_sign:
 
-How did you hear about the Grants Program?
-- Personal recommendation
+We haven’t applied for any other grant programs.
+
+**How did you hear about the Grants Program?**
+
+Have a number of approved applications:
+- OpenBrush
+- Sol2Ink
