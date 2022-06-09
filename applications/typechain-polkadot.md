@@ -35,15 +35,22 @@ npx @supercolony-net/ink-abi-to-ts --in path/to/input --out path/to/output
 ```
 
 ### Ecosystem Fit
-
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-    - If so, how is your project different?
-    - If not, are there similar projects in related ecosystems?
+#### Where and how does your project fit into the ecosystem?
+Our project can be used by everybody who wants to fasten the development. So it will be a great fit for the Polkadot ecosystem.
+
+#### Who is your target audience
+
+Our main target audience is front-end developers, but it can be also used by other blockchain developers for testing their contracts.
+
+### What need(s) does your project meet?
+
+Our project is a tool that will fasten the development process of Polkadot/Substrate/Kusama projects. It will help you to generate typesafe code from ABIs, and it will also help you to interact with contracts.
+
+### Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+
+No, we are the first project in the ecosystem. But in Solidity ecosystem there is simmilar projects for example [Typechain](https://www.npmjs.com/package/typechain)
 
 ## Team :busts_in_silhouette:
 
