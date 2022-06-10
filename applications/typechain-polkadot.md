@@ -29,22 +29,23 @@ When contracts descriptions come both with ABI and source code (`*.contract` fil
 
 
 ### Ecosystem Fit
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-#### Where and how does your project fit into the ecosystem?
-Our project can be used by everybody who wants to fasten the development. So it will be a great fit for the Polkadot ecosystem.
+- Where and how does your project fit into the ecosystem?
 
-#### Who is your target audience
+There is a whole side to every project in the ecosystem - that is the front-end side of contract integration, - that will find use for Typechain-Polkadot during development process.
 
-Our main target audience is front-end developers, but it can be also used by other blockchain developers for exploring their contracts.
+- Who is your target audience?
 
-### What need(s) does your project meet?
+Our main target audience is front-end developers of Polkadot projects.
 
-Our project is a tool that will fasten the development process of Polkadot/Substrate/Kusama projects. It will help you to generate typesafe code from ABIs, and it will also help you to interact with contracts.
+- What need(s) does your project meet?
 
-### Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+Our project speeds up front-end integration of Polkadot/Substrate/Kusama contracts. As well as brings type safety to developers code, when dealing with contracts.
 
-No, we are the first project in the ecosystem. But in Solidity ecosystem there is simmilar projects for example [Typechain](https://www.npmjs.com/package/typechain)
+- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+
+No, we are the first project of the kind in the ecosystem. However, in Solidity ecosystem, a simmilar project already exists: [Typechain](https://www.npmjs.com/package/typechain).
+
 
 ## Team :busts_in_silhouette:
 
@@ -82,20 +83,19 @@ Primary programming languages are: C++, Go, Rust
 
 Finished the faculty of applied mathematics(Master degree). Participated in programming competitions during education. Has worked as a programmer for around 6 years.
 
-Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe).  After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
-
+Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe). After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
 **Alex Seleznov**
 Front-End Developer
 
-// TODO
+Has 5 years of experience in front-end development. Primarily working with React-based applications with Flux state management systems, written in TypeScript. Produced many modular solutions & dealt with NPM packaging. Latest experience is with projects on Polkadot blockchain.
 
 **Varex Silver**
-
 Blockchain Developer
 
 Student of Computer Science at the Kyiv National University of Taras Shevchenko. Participated in programming competitions of different stages in school since 2017 (C++).
 Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), and now Blockchain developer(Rust, Typescript).
+
 
 ### Team Code Repos
 
