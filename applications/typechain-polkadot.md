@@ -120,9 +120,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Overview
 
-**We are describing a full roadmap of an TypeChainPolkadot here, with estimates.**
+**We are describing a full roadmap of the TypeChainPolkadot here, with estimates.**
 
-Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
+Technical specifications can be found [here](https://github.com/Supercolony-net/typechain-polkadot/blob/milestone1/docs/tech-specs.md).
 
 * **Total Estimated Duration:** 15 weeks
 * **Full-Time Equivalent (FTE):** 2
