@@ -1,7 +1,7 @@
 # W3F Grant Proposal
 
 - **Project Name:** [Typechain-Polkadot](https://github.com/Supercolony-net/typechain-polkadot)
-- **Team Name:** [SuperColony](https://github.com/Supercolony-net)## Development Status :open_book:
+- **Team Name:** [SuperColony](https://github.com/Supercolony-net)
 - **Payment Address:** ERC 20 ADDRESS:
 0xE1B19cE32866cDE87F8f59C7C2C5f90E093A6942
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** (?)
@@ -74,8 +74,7 @@ No, we are the first project of the kind in the ecosystem. However, in Solidity 
 CEO of Supercolony, Blockchain entrepreneur, Software Engineer. Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster. Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
 
 **Toma Sadova**
-Product Owner
-Toma is a Product Owner of OpenBrush, Head of Education and the main organizer of the [the biggest WASM conference](https://wasm-conference.com/). Toma started her career when she was 14. Since then, Toma has gained a lot of experience in IT technologies, management, leadership and crypto. She switched 4 career paths and figured out that blockchain/crypto is her calling!
+Toma is Market Growth Lead, Product Owner of OpenBrush, and the main organizer of the [the biggest WASM conference](https://wasm-conference.com/). Toma started her career when she was 14. Since then, Toma has gained a lot of experience in IT technologies, management, leadership and crypto. She switched 4 career paths and figured out that blockchain/crypto is her calling!
 
 **Green Baneling**
 Blockchain Core Developer
@@ -86,12 +85,11 @@ Finished the faculty of applied mathematics(Master degree). Participated in prog
 Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe). After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
 **Alex Seleznov**
-Front-End Developer
-
+Front-End Developer.
 Has 5 years of experience in front-end development. Primarily working with React-based applications with Flux state management systems, written in TypeScript. Produced many modular solutions & dealt with NPM packaging. Latest experience is with projects on Polkadot blockchain.
 
 **Varex Silver**
-Blockchain Developer
+Blockchain Developer.
 
 Student of Computer Science at the Kyiv National University of Taras Shevchenko. Participated in programming competitions of different stages in school since 2017 (C++).
 Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), and now Blockchain developer(Rust, Typescript).
@@ -126,18 +124,18 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 
-* **Total Estimated Duration:** 10 - 16 weeks
+* **Total Estimated Duration:** 15 weeks
 * **Full-Time Equivalent (FTE):** 2
-* **Total Costs:** ? USD
+* **Total Costs:** 60,200 USD
 
 
 ### Current work - Scope of this Grant
 
 #### Milestone 1 - Parsing of ABI files
 
-* **Estimated duration:** 2 - 4 weeks
+* **Estimated duration:** 4 weeks
 * **FTE:**  1.5
-* **Costs:** ? USD
+* **Costs:** 16,800 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -148,9 +146,9 @@ Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 
 #### Milestone 2 - Generation of output structure in TS (yet, without methods’ implementation)
 
-* **Estimated duration:** 3 - 4 weeks
-* **FTE:**  1.15
-* **Costs:** ? USD
+* **Estimated duration:** 4 weeks
+* **FTE:**  1.5
+* **Costs:** 16,800 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -162,9 +160,9 @@ Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 
 #### Milestone 3. Methods implementation
 
-* **Estimated Duration:** 4 - 6 weeks
-* **FTE:**  1.25
-* **Costs:** ? USD
+* **Estimated Duration:** 5 weeks
+* **FTE:**  1.5
+* **Costs:** 21,000 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -176,9 +174,9 @@ Technical specifications can be found [here](typechain-polkadot_tech-spec.md).
 
 #### Milestone 4. NPM packaging & release
 
-* **Estimated Duration:** 1 - 2 weeks
-* **FTE:**  1.25
-* **Costs:** ? USD
+* **Estimated Duration:** 2 weeks
+* **FTE:**  1
+* **Costs:** 5,600 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
