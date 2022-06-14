@@ -124,65 +124,59 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 Technical specifications can be found [here](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md).
 
-* **Total Estimated Duration:** 15 weeks
+* **Total Estimated Duration:** 22 weeks
 * **Full-Time Equivalent (FTE):** 2
-* **Total Costs:** 60,200 USD
+* **Total Costs:** ? USD
 
 
 ### Current work - Scope of this Grant
 
-#### Milestone 1 - Parsing of ABI files
 
-* **Estimated duration:** 4 weeks
-* **FTE:**  1.5
-* **Costs:** 16,800 USD
+#### Milestone 1 - MVP, first application and testing.
 
-| Number | Deliverable | Specification |
-| -----  | ----------- | ------------- |
-| 1 | ABI versions support | We will support parsing of ABI v3. Earlier versions are up to a research. |
-| 2 | TS types | We will research & match types from ABI to TS types, compatible with [polkadot{.js} v8](https://polkadot.js.org) library. Separately, for methods' arguments and return values. |
-| 3 | Parser output | Parsing results in data structure, serving as a base for code generation. |
-
-
-#### Milestone 2 - Generation of output structure in TS (yet, without methods’ implementation)
-
-* **Estimated duration:** 4 weeks
-* **FTE:**  1.5
-* **Costs:** 16,800 USD
+* **Estimated duration:** 8 weeks (~ 5 weeks spent already )
+* **FTE:**  2
+* **Costs:** ? USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
-| 1a | Arguments and return values | Generation of TS types definitions for contracts' methods' arguments and return values. |
-| 1b | Methods | Generation of methods for `query`, `buildExtrinsic`, `tx` and `methods` namespaces. Without implementation yet. |
-| 1c | Contracts' classes | Generation of contract's classes. For both ABIs in `*.json` & `*.contract` input files.
-| 2 | Code usability | We will provide JSDoc for generated code, refactor type system for better usability, if needed. |
+| 1 | TS types | We will research & match types from ABI to TypeScript, compatible with [polkadot{.js} v8](https://polkadot.js.org) library. Separately, for methods' arguments and return values. Files with types definition will be generated. |
+| 2 | Runtime code | Prepare output of runtime code with contracts' methods implementation. At this point we have minimal viable coverage of the ABI types, original methods' names, and general types for methods' options, without specifics for contract's namespaces. |
+| 3 | Tests | Minimal coverage of PSP22 contract with integration tests. We will be testing correctness of the derived types of the arguments and return values. |
+| 4 | NPM Packaging | Prepare the repository to work through CLI as a package. In TypeScript, as is, without translation to JavaScript. We will publish the package to [NPM repository](https://npmjs.com) and provide set-up instructions. |
+| 5 | Examples & Documentation | We will provide TypeScript code examples of this package in use. As well, as document its features. |
 
 
-#### Milestone 3. Methods implementation
+#### Milestone 2 - Full coverage for ABIs’ types. Contracts deployment.
 
-* **Estimated Duration:** 5 weeks
-* **FTE:**  1.5
-* **Costs:** 21,000 USD
-
-| Number | Deliverable | Specification |
-| -----  | ----------- | ------------- |
-| 1a | RPC calls | Implementation for the methods, making RPC query calls. |
-| 1b | Transactions | Implementation for the methods, related to making transactions. |
-| 2 | Contracts deployment | Implementation for the contracts deployment means. |
-| 3 | Testing | We will provide integration tests based on a PSP22 contract. Testing will check correctness of generated TS type definitions. |
-
-
-#### Milestone 4. NPM packaging & release
-
-* **Estimated Duration:** 2 weeks
-* **FTE:**  1
-* **Costs:** 5,600 USD
+* **Estimated duration:** 8 weeks
+* **FTE:**  2
+* **Costs:** ? USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
-| 1a | Preparation | We will prepare code for usage as an NPM package with CLI, make sure it works across platforms. |
-| 1b | Publishing | Publishing to the [NPM repository](https://npmjs.com). We will provide package's set-up and usage instructions. |
-| 2 | Usage examples | We will provide a separate repository with package's usage examples. |
+| 1 | Investigation | Broaden types definitions for methods arguments and return values (to full coverage). |
+| 2 | Parser module | Write a separate parser module for ABI JSON. Support of ABI V1-V3. |
+| 3 | Refactor | Generate code, based on parser's output now. |
+| 4 | Contract deployment | Support of parsing `*.contract` files. Provide means for contract deployment. |
+| 5 | Testing | Full coverage of PSP22 contract with integration tests. Both for contract usage and deployment. We will be testing arguments' & return values' types correctness. |
+| 5 | Examples & Documentation | Cover new-added features in documentation and usage examples. |
+
+
+#### Milestone 3 - Optimization. Improve type system of the generated code.
+
+* **Estimated duration:** 6 weeks
+* **FTE:**  1.5 - 2
+* **Costs:** ? USD
+
+| Number | Deliverable | Specification |
+| -----  | ----------- | ------------- |
+| 1 | Precise methods definitions | Refine definitions and bahavior of contracts methods (i.e. methods' arguments and returns), depending on namespace, call options and properties of the method, like `payable` & `mutable`. E.g. preamptive querying for transaction calls, controlled by a call options flag. |
+| 2 | Methods' names | Format methods' names in the output from original `MethodTrait::method_name` to more user-friendly `methodName` naming scheme, while resolving overlap in formatted names. |
+| 3 | Contract classes extension | Extend generated contract classes with useful properties, normally available on the contract (e.g. address, name, signer, etc.). Rely on usage experience in doing so. |
+| 4 | IDE hints | Prepare generated code to have more informattive IDE hints, based on both JSDoc and output typesystem itself (if needed). Rely on usage experience in doing so. |
+| 5 | NPM Package | Translate package's code to JavaScript upon deployment. Provide informattive CLI, when needed. Make sure to have a cross-platform CLI support. |
+| 6 | Examples & Documentation | Cover new-added features in documentation and usage examples. |
 
 
 <!-- ### Future work -->
