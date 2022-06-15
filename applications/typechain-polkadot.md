@@ -134,9 +134,9 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 
 #### Milestone 1 - MVP, first application and testing.
 
-* **Estimated duration:** 8 weeks (~ 5 weeks spent already )
+* **Estimated duration:** 8 weeks 
 * **FTE:**  2
-* **Costs:** ? USD
+* **Costs:** 44,800 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -147,11 +147,18 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 | 5 | Examples & Documentation | We will provide TypeScript code examples of this package in use. As well, as document its features. |
 
 
+
+<!-- ### Future work -->
+
+
+## Future Plans
+
+
 #### Milestone 2 - Full coverage for ABIs’ types. Contracts deployment.
 
 * **Estimated duration:** 8 weeks
 * **FTE:**  2
-* **Costs:** ? USD
+* **Costs:** 44,800 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -166,8 +173,8 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 #### Milestone 3 - Optimization. Improve type system of the generated code.
 
 * **Estimated duration:** 6 weeks
-* **FTE:**  1.5 - 2
-* **Costs:** ? USD
+* **FTE:**  2
+* **Costs:** 33,600 USD
 
 | Number | Deliverable | Specification |
 | -----  | ----------- | ------------- |
@@ -178,11 +185,6 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 | 5 | NPM Package | Translate package's code to JavaScript upon deployment. Provide informattive CLI, when needed. Make sure to have a cross-platform CLI support. |
 | 6 | Examples & Documentation | Cover new-added features in documentation and usage examples. |
 
-
-<!-- ### Future work -->
-
-
-## Future Plans
 
 After this grant, we will be maintaining the project to keep up with new emerging ecosystem standards and also listen to issues from community and update the tool to make the process of transformation a nicer experience for the developers and teams.
 
