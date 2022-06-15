@@ -4,7 +4,7 @@
 - **Team Name:** [SuperColony](https://github.com/Supercolony-net)
 - **Payment Address:** ERC 20 ADDRESS:
 0xE1B19cE32866cDE87F8f59C7C2C5f90E093A6942
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** (?)
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 
 ## Project Overview :page_facing_up:
@@ -120,13 +120,13 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Overview
 
-**We are describing a full roadmap of the TypeChainPolkadot here, with estimates.**
+**We are describing a full roadmap of the TypeChainPolkadot here, with estimates. However, the funding we request at this stage is for Milestones 1**
 
 Technical specifications can be found [here](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md).
 
-* **Total Estimated Duration:** 22 weeks
+* **Total Estimated Duration:** 8 weeks
 * **Full-Time Equivalent (FTE):** 2
-* **Total Costs:** ? USD
+* **Total Costs:** 44,800 USD
 
 
 ### Current work - Scope of this Grant
