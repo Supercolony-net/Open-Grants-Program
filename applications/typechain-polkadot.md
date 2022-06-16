@@ -40,7 +40,7 @@ Our main target audience is front-end and smart-contract developers of Polkadot 
 
 - What need(s) does your project meet?
 
-Our project speeds up front-end integration of Polkadot/Substrate/Kusama contracts. As well as brings type safety to developers code, when dealing with contracts.
+Our project speeds up the front-end integration of Polkadot/Substrate/Kusama contracts. As well as brings type safety to developers' code, when dealing with contracts. For smart contract developers, it simplifies integration test writing.
 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
