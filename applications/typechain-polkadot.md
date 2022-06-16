@@ -36,7 +36,7 @@ There is a whole side to every project in the ecosystem - that is the front-end 
 
 - Who is your target audience?
 
-Our main target audience is front-end developers of Polkadot projects.
+Our main target audience is front-end and smart-contract developers of Polkadot projects.
 
 - What need(s) does your project meet?
 
