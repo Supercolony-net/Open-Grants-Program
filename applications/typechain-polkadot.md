@@ -112,9 +112,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://www.linkedin.com/in/alexandr-seleznov-04054b5b/
 - https://www.linkedin.com/in/bogdan-ogorodniy/
 
+
 ## Development Status :open_book:
 
 [The project](https://github.com/Supercolony-net/typechain-polkadot) is already a work-in-progress.
+
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -134,21 +136,17 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 
 #### Milestone 1 - MVP, first application and testing.
 
-* **Estimated duration:** 8 weeks 
+* **Estimated duration:** 8 weeks
 * **FTE:**  2
 * **Costs:** 44,800 USD
 
 | Number | Deliverable | Specification |
-| -----  | ----------- | ------------- |
+| ------ | ----------- | ------------- |
 | 1 | TS types | We will research & match types from ABI to TypeScript, compatible with [polkadot{.js} v8](https://polkadot.js.org) library. Separately, for methods' arguments and return values. Files with types definition will be generated. |
-| 2 | Runtime code | Prepare output of runtime code with contracts' methods implementation. At this point we have minimal viable coverage of the ABI types, original methods' names, and general types for methods' options, without specifics for contract's namespaces. |
-| 3 | Tests | Minimal coverage of PSP22 contract with integration tests. We will be testing correctness of the derived types of the arguments and return values. |
-| 4 | NPM Packaging | Prepare the repository to work through CLI as a package. In TypeScript, as is, without translation to JavaScript. We will publish the package to [NPM repository](https://npmjs.com) and provide set-up instructions. |
-| 5 | Examples & Documentation | We will provide TypeScript code examples of this package in use. As well, as document its features. |
-
-
-
-<!-- ### Future work -->
+| 2 | Runtime code | Prepare output(its draft can be seen in [technical specification](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#generated-code-draft)) of runtime code with contracts' methods implementation. At this point we have minimal viable coverage of the ABI types, original methods' names, and general types for methods' options, without specifics for contract's [namespaces](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#namespaces). |
+| 3 | Testing | Minimal coverage of PSP22 contract with integration tests. We will be testing correctness of the derived types of the arguments and return values. |
+| 4 | NPM Packaging | Prepare the repository to work through CLI as a package. In TypeScript, as is, without translation to JavaScript. We will publish the package to [NPM repository](https://npmjs.com) and provide set-up instructions (i.e. for [installation](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#set-up), [input](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#input) & [output](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#output)). |
+| 5 | Examples & Documentation | We will provide TypeScript code examples of this package in use (some can be already found [here](https://github.com/Supercolony-net/typechain-polkadot/blob/master/docs/tech-specs.md#usage-examples)). As well, as document its features. |
 
 
 ## Future Plans
@@ -161,13 +159,13 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 * **Costs:** 44,800 USD
 
 | Number | Deliverable | Specification |
-| -----  | ----------- | ------------- |
+| ------ | ----------- | ------------- |
 | 1 | Investigation | Broaden types definitions for methods arguments and return values (to full coverage). |
 | 2 | Parser module | Write a separate parser module for ABI JSON. Support of ABI V1-V3. |
 | 3 | Refactor | Generate code, based on parser's output now. |
 | 4 | Contract deployment | Support of parsing `*.contract` files. Provide means for contract deployment. |
 | 5 | Testing | Full coverage of PSP22 contract with integration tests. Both for contract usage and deployment. We will be testing arguments' & return values' types correctness. |
-| 5 | Examples & Documentation | Cover new-added features in documentation and usage examples. |
+| 6 | Examples & Documentation | Cover new-added features in documentation and usage examples. |
 
 
 #### Milestone 3 - Optimization. Improve type system of the generated code.
@@ -177,7 +175,7 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 * **Costs:** 33,600 USD
 
 | Number | Deliverable | Specification |
-| -----  | ----------- | ------------- |
+| ------ | ----------- | ------------- |
 | 1 | Precise methods definitions | Refine definitions and bahavior of contracts methods (i.e. methods' arguments and returns), depending on namespace, call options and properties of the method, like `payable` & `mutable`. E.g. preamptive querying for transaction calls, controlled by a call options flag. |
 | 2 | Methods' names | Format methods' names in the output from original `MethodTrait::method_name` to more user-friendly `methodName` naming scheme, while resolving overlap in formatted names. |
 | 3 | Contract classes extension | Extend generated contract classes with useful properties, normally available on the contract (e.g. address, name, signer, etc.). Rely on usage experience in doing so. |
