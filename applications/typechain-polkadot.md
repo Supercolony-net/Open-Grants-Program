@@ -161,7 +161,7 @@ Technical specifications can be found [here](https://github.com/Supercolony-net/
 | Number | Deliverable | Specification |
 | ------ | ----------- | ------------- |
 | 1 | Investigation | Broaden types definitions for methods arguments and return values (to full coverage). |
-| 2 | Parser module | Write a separate parser module for ABI JSON. Support of ABI V1-V3. |
+| 2 | Parser module | Design and implement a new parser module for ABI JSON to work with different versions of the ABI. |
 | 3 | Refactor | Generate code, based on parser's output now. |
 | 4 | Contract deployment | Support of parsing `*.contract` files. Provide means for contract deployment. |
 | 5 | Testing | Full coverage of PSP22 contract with integration tests. Both for contract usage and deployment. We will be testing arguments' & return values' types correctness. |
