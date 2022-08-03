@@ -106,16 +106,16 @@ Finished the faculty of applied mathematics(Master degree). Participated in prog
 
 Was a freelancer the first year, creating an application for IOS(Swift), creating modules for the desktop application on C++. After that, spent 2 years in a company which created software for TV devices(C++/ Haxe). After which, for 3 years, worked on different blockchain projects(C++/Go/Rust/Solidity/Js).
 
-**Alex Seleznov**
-Front-End Developer.
-Has 5 years of experience in front-end development. Primarily working with React-based applications with Flux state management systems, written in TypeScript. Produced many modular solutions & dealt with NPM packaging. Latest experience is with projects on Polkadot blockchain.
-
 **Varex Silver**
 Blockchain Developer.
 
 Student of Computer Science at the Kyiv National University of Taras Shevchenko. Participated in programming competitions of different stages in school since 2017 (C++).
 Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), and now Blockchain developer(Rust, Typescript).
 
+**Artem Lech**
+Blockchain Developer.
+
+Student of Applied Mathematics at the Kyiv National University of Taras Shevchenko. Started programming from 2016, participated in a lot of Ukrainian and international competitions of competitive programming. Worked as a lecturer of algorithms at school of competitive programming and as Intern Backend Engineer (Rust). Now works as Blockhain Developer on Polkadot Blockchain (Rust, Typescript).
 
 ### Team Code Repos
 
@@ -124,16 +124,15 @@ Was a Backend developer(Go), Solidity developer(Solidity, Hardhat, Typescript), 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/xgreenx
-- https://github.com/alex-seleznov
 - https://github.com/varex83
+- https://github.com/Artemka374
 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/mivanichok/
 - https://www.linkedin.com/in/toma-sadova/
-- https://www.linkedin.com/in/alexandr-seleznov-04054b5b/
 - https://www.linkedin.com/in/bogdan-ogorodniy/
-
+- https://www.linkedin.com/in/artem-fomiuk-31249b226/
 
 ## Development Status :open_book:
 
