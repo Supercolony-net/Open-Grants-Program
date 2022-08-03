@@ -76,8 +76,8 @@ No, we are the first project of the kind in the ecosystem. However, in Solidity 
 - **Markian Ivanichok** (СEO of Supercolony)
 - **Toma Sadova** (Product Owner | Supercolony)
 - **Green Baneling** (Blockchain Core Rust Engineer | Supercolony)
-- **Alex Seleznov** (Front-End Developer | Supercolony)
 - **Varex Silver** (Blockchain developer | Supercolony)
+- **Artem Lech** (Blockchain developer | Supercolony)
 
 ### Contact
 
