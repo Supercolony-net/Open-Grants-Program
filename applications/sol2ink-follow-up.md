@@ -1,9 +1,9 @@
 # W3F Grant Proposal
 
 - **Project Name:** Sol2Ink
-- **Team Name:** [SuperColony](https://github.com/Supercolony-net)
+- **Team Name:** [727.ventures](https://github.com/727-Ventures)
 - **Payment Address:** ERC 20 ADDRESS (USDT):
-0xE1B19cE32866cDE87F8f59C7C2C5f90E093A6942 
+0xE21fA452De95466367Ee6F002BDa654D8Be6c337 
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
 
 ## Project Overview :page_facing_up:
@@ -118,29 +118,29 @@ We are also aware of [Sol2Ligo](https://github.com/madfish-solutions/sol2ligo), 
 
 ### Team members
 
-- **Markian Ivanichok** (СEO of Supercolony)
-- **Toma Sadova** (Product Owner | Supercolony)
-- **Nameless Endless** (Blockchain Developer | Supercolony)
-- **Dominik Krížo** (Blockchain Developer | Supercolony)
-- **Green Baneling** (Blockchain Core Rust Engineer | Supercolony)  
+- **Markian Ivanichok** (СEO of 727.ventures)
+- **Toma Sadova** (Product Owner | 727.ventures)
+- **Nameless Endless** (Blockchain Developer | 727.ventures)
+- **Dominik Krížo** (Blockchain Developer | 727.ventures)
+- **Green Baneling** (Blockchain Core Rust Engineer | 727.ventures)  
 
 
 ### Contact
 
 * **Contact Name:** Toma Sadova
-* **Contact Email:** toma.sadova@supercolony.net
-* **Website:** [supercolony.net](supercolony.net)
+* **Contact Email:** toma@727.ventures
+* **Website:** [727.ventures](727.ventures)
 
 ### Legal Structure
 
-* **Registered Address:** The registered office shall be in 16192 Coastal Highway, Lewes, Delaware 19958, County of
-Sussex, USA. 
-* **Registered Legal Entity:** SUPERCOLONY CORP.
+* **Registered Address:** The registered office shall be in Coastal Building, Wickham’s
+Cay II, P. O. Box 2221, Road Town, Tortola, VG1110, British Virgin Islands.
+* **Registered Legal Entity:** Seven2seven Ventures Ltd
 
 ### Team's experience
 
 **Markian Ivanichok**  
-CEO of Supercolony, Blockchain entrepreneur, Software Engineer. Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster. Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
+CEO of 727.ventures, Blockchain entrepreneur, Software Engineer. Started my engineering career back when I was 15. Since then, I developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps entrepreneurs to move faster.
 
 **Toma Sadova**  
 Product Owner
@@ -152,7 +152,7 @@ Became interested in programming at the age of 16. At this time, he tried web de
 
 **Dominik Krížo**  
 Blockchain Developer
-Started programming own games at age of 15 as a hobby, then went to University studying informatics and object oriented programming, becoming an Android developer in 2018. In 2017 he started his crypto venture by investing in BTC and Ethereum and getting more knowledge regarding smart contracts and DeFi protocols during DeFi summer 2020. As a programmer, he wanted to know more behind the scenes of smart contracts, so he started to develop his own smart contract applications for Ethereum and then becoming a Rust and Ink! developer in Supercolony, since he believes that WASM with its benefits over EVM is the future of smart contract applications. As a part of his Android developer career, Dominik was working on porting of applications from C++ to Android/Java, for which he also worked on a tool to ease this process, describing the process of transformation of code base from one language to another in his bachelor's thesis.
+Started programming own games at age of 15 as a hobby, then went to University studying informatics and object oriented programming, becoming an Android developer in 2018. In 2017 he started his crypto venture by investing in BTC and Ethereum and getting more knowledge regarding smart contracts and DeFi protocols during DeFi summer 2020. As a programmer, he wanted to know more behind the scenes of smart contracts, so he started to develop his own smart contract applications for Ethereum and then becoming a Rust and Ink! developer in , since he believes that WASM with its benefits over EVM is the future of smart contract applications. As a part of his Android developer career, Dominik was working on porting of applications from C++ to Android/Java, for which he also worked on a tool to ease this process, describing the process of transformation of code base from one language to another in his bachelor's thesis.
 
 **Green Baneling**  
 Blockchain Core Developer  
@@ -164,7 +164,7 @@ Was a freelancer the first year, creating an application for IOS(Swift), creatin
 
 ### Team Code Repos
 
-* https://github.com/Supercolony-net
+* https://github.com/727-Ventures
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
